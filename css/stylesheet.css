@@ -149,6 +149,24 @@ a {
     margin-bottom: 20px;
 }
 
+.inner_footer .footer_third h2 {
+    font-family: arial Rounded MT;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .footer_third h3 {
+    font-family: arial Rounded MT;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .inner_footer .footer_third a {
     font-family: arial;
     font-size: 15px;
