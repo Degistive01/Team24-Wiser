@@ -27,7 +27,6 @@
             display: block;
         }
 
-.body {margin:0;}
 
 .navbar {
   list-style-type: none;
@@ -40,7 +39,7 @@
 }
 
 .navtext {
-  float: right;
+  float: left;
 }
 
 .navtext a {
