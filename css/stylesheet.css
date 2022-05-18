@@ -33,8 +33,6 @@ a {
     gap: 60px;
 }
 
-.logo {}
-
 .nav-link {
     transition: 0.7s ease;
     position: relative;
