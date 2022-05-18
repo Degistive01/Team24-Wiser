@@ -1,3 +1,28 @@
-body {
-    background-color: #f4f4f4;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        .footer {
+            width: 100vw;
+            display: block;
+            overflow: hidden;
+            padding: 70px 0;
+            box-sizing: border-box;
+            background-color: #626469;
+        }
+        
+        .inner_footer {
+            display: block;
+            margin: 0 auto;
+            width: 1100px;
+        }
+        
+        .inner_footer .logo_container {
+            width: 35%;
+            float: left;
+            height: 100%;
+            display: block;
+        }
