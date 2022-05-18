@@ -1,21 +1,34 @@
-       .navbar {
-           list-style-type: none;
-           margin: 0;
-           padding: 0;
-           background-color: #3DCD58;
-           position: fixed;
-           top: 0;
-           width: 100%;
-       }
-       
-       .navtext {
-           float: left;
-       }
-       
-       .navtext a {
-           display: block;
-           color: white;
-           text-align: center;
-           padding: 14px 16px;
-           text-decoration: none;
-       }
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial Rounded MT;
+}
+
+nav {
+  background: #3DCD58;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  
+}
