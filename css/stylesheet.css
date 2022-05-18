@@ -31,16 +31,29 @@ a{
 }
 
 .logo {
-  height: 70px;
-  width: 100px;
+
+
 }
 
 .nav-link{
   transition: 0.7s ease;
+  position: relative;
 }
 
-.nav-link:hover{
-  color: black;
+.nav-link::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background: white;
+  position: absolute;
+  bottom: -.75em;
+  left: 0;
+  right: 0;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+.nav-link:hover::before{
+  transform: scale(1,1);
 }
 
 .hamburger{
