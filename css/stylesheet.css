@@ -41,10 +41,10 @@ a {
 .nav-link::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 2px;
     background: white;
     position: absolute;
-    bottom: -.75em;
+    bottom: -.50em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
@@ -141,24 +141,6 @@ a {
 }
 
 .inner_footer .footer_third h1 {
-    font-family: arial Rounded MT;
-    font-size: 22px;
-    color: white;
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.inner_footer .footer_third h2 {
-    font-family: arial Rounded MT;
-    font-size: 22px;
-    color: white;
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.inner_footer .footer_third h3 {
     font-family: arial Rounded MT;
     font-size: 22px;
     color: white;
