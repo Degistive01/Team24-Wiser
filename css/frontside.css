@@ -14,7 +14,7 @@
   display: block;
   }
 
-  .wiserintrooverskrift {
+  .section {
     grid-area: wiov;
     width: 100%;
     display: block;
@@ -40,6 +40,50 @@
       '. . . wiov wiov wiov bil4 bil4 bil4 . . .'
       '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
   }
+
+    .sparpengetekst {
+      grid-area: spartekst;
+      width: 100%;
+      display: block;
+      }
+
+      .section2 {
+        grid-area: sect2;
+        width: 100%;
+        display: block;
+        }
+
+        .wiserappbillede2 {
+          grid-area: wiappbi2;
+          width: 100%;
+          display: block;
+          }
+
+  .sparpengesektion {
+    background-color: lightgreen;
+    margin: 0;
+    padding: 4%;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas:
+      '. . . wiappbi2 wiappbi2 wiappbi2 sect2 sect2 sect2 . . .'
+      '. . . wiappbi2 wiappbi2 wiappbi2 spartekst spartekst spartekst . . .';
+  }
+
+  .test1 {
+    margin-top: 10%;
+    padding: 5%;
+    }
+
+  .team {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    }
 
 @media only screen and (min-width: 600px) {
 .bannerbilledeforside {
