@@ -8,6 +8,22 @@
 }
 
 .bannerbillede3 {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+  width: 75%;
+  }
+
+.bannerbillede4 {
+  width: 100%;
+  }
+
+@media only screen and (min-width: 600px) {
+.bannerbillede2 {
+  width: 100%;
+}
+
+.bannerbillede3 {
   grid-area: bil3;
   width: 100%;
   }
@@ -19,11 +35,13 @@
 
 .wiserintrosektion {
   background-color: lightgreen;
+  margin: 0;
+  padding: 0;
   height: 500px;
   gap: 10px;
-  padding: 10px;
   display: grid;
   grid-column: 12;
   grid-template-areas:
     '. . . bil3 bil3 . . bil4 bil4 . . .';
+}
 }
