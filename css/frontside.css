@@ -6,7 +6,7 @@
 
 .bannerbillede2 {
   width: 100%;
-  background-color: blue;
+  display: block;
 }
 
 .bannerbillede3 {
