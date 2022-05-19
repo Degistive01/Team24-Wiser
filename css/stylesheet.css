@@ -116,7 +116,7 @@ a {
     }
     .logonav {
       display: block;
-      margin-left: 33%;
+      margin-left: auto;
       margin-right: auto;
     }
 }
