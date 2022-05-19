@@ -29,7 +29,7 @@ a {
 .logonav {
   float: left;
   display: flex;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 
@@ -80,11 +80,7 @@ a {
 
 @media (max-width: 900px) {
 
-  .logonav {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
     .hamburger {
         display: block;
     }
@@ -114,11 +110,7 @@ a {
     .nav-menu.active {
         left: 0;
     }
-    .logonav {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+
 }
 
 .footer {
