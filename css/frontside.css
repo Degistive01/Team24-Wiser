@@ -3,8 +3,10 @@
   padding: 0;
 }
 
+
 .bannerbillede2 {
   width: 100%;
+  background-color: blue;
 }
 
 .bannerbillede3 {
@@ -43,5 +45,6 @@ margin-right: auto;
   grid-column: 12;
   grid-template-areas:
     '. . . bil3 bil3 . . bil4 bil4 . . .';
+
 }
 }
