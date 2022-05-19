@@ -26,11 +26,19 @@ a {
     padding: 0 24px;
 }
 
+.logonav {
+  float: left;
+  display: flex;
+  margin-left: 30px;
+}
+
+
 .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    margin-right: 30px;
 }
 
 .nav-link {
