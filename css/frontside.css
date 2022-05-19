@@ -59,12 +59,15 @@
 .wiserintrosektion {
   background-color: lightgreen;
   margin: 0;
-  padding: 0;
-  height: 500px;
+  padding: 4%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  height: auto;
   gap: 10px;
   display: grid;
   grid-column: 12;
   grid-template-areas:
-    '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+  '. . . wiov wiov wiov bil4 bil4 bil4 . . .'
+  '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
 }
 }
