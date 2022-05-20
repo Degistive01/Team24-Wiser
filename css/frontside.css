@@ -23,6 +23,7 @@
 .wiserappbillede {
   grid-area: bil4;
   width: 100%;
+  min-width: 115px;
   display: block;
   }
 
