@@ -103,6 +103,8 @@ a {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        border-top: white;
+        border-color: white;
     }
     .nav-item {
         margin: 16px 0;
