@@ -57,7 +57,6 @@
 .wiserappbillede2 {
   grid-area: wiappbi2;
   width: 100%;
-  min-width: 115px;
   display: block;
 }
 
