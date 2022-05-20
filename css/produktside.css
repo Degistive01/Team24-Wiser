@@ -11,7 +11,6 @@
 .produkter{
   display: flex;
   flex-direction: column;
-  
 }
 
 @media (min-width: 600px) {
