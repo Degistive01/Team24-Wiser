@@ -9,9 +9,6 @@
 }
 .produktpakker{
   text-align: center;
-  font-size: 45px;
-  font-family: arial Rounded MT;
-  color: #3DCD58;
   padding-top: 10px;
 }
 .produkter{
@@ -25,10 +22,38 @@
   padding-bottom: 85px;
   height: auto;
   text-align: center;
-  font-size: 30px;
-  font-family: arial;
-
 }
+
+.wiserapptekst {
+    grid-area: spartekst;
+    width: 100%;
+    display: block;
+}
+
+.wiserapptekstboks {
+    grid-area: wptb;
+    width: 100%;
+    display: block;
+}
+
+.wiserappmandbillede {
+    grid-area: wpmb;
+    width: 100%;
+    display: block;
+}
+.wiserappmand{
+background-color: #3FCC59;
+margin: 0;
+padding: 4%;
+padding-top: 85px;
+padding-bottom: 85px;
+height: auto;
+gap: 10px;
+display: grid;
+grid-column: 12;
+grid-template-areas: '. . . wpmb wpmb wpmb wpmb wpmb wpmb . . .' '. . . wptb wptb wptb wptb wptb wptb . . .';
+}
+
 
 @media (min-width: 600px) {
   .pbillede {
