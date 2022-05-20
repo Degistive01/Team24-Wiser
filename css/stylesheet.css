@@ -109,6 +109,10 @@ a {
     }
     .nav-item {
         margin: 16px 0;
+        border-style: solid none;
+        border-color: white;
+        border-top: none;
+        border-width: thin;
     }
     .nav-menu.active {
         left: 0;
