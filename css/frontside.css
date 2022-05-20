@@ -90,8 +90,8 @@
       display: block;
     }
 
-    .baeredygtigtlivtekst {
-      grid-area: bælitekst;
+    .baeredygtigtlivbillede {
+      grid-area: baelibil;
       width: 100%;
       display: block;
     }
@@ -113,7 +113,7 @@
       gap: 10px;
       display: grid;
       grid-column: 12;
-      grid-template-areas: '. . . wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 . . .''. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
+      grid-template-areas: '. . . baelibil baelibil baelibil baelibil baelibil baelibil . . .''. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
     }
 
     .section4 {
@@ -128,8 +128,8 @@
       display: block;
     }
 
-    .wiserappbillede4 {
-      grid-area: wiappbi4;
+    .elektrikerbillede {
+      grid-area: elekbil;
       width: 100%;
       display: block;
     }
@@ -144,7 +144,7 @@
       gap: 10px;
       display: grid;
       grid-column: 12;
-      grid-template-areas: '. . . wiappbi4 wiappbi4 wiappbi4 wiappbi4 wiappbi4 wiappbi4 . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
+      grid-template-areas: '. . . elekbil elekbil elekbil elekbil elekbil elekbil . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
     }
 
     @media only screen and (min-width: 420px) {
@@ -206,6 +206,33 @@
           grid-column: 12;
           grid-template-areas:
             '. . . elpaere elpaere elpaere sect2 sect2 sect2 . . .'
-            '. . . . . . . . . . . .';
+        }
+
+        .baeredygtigtlivsektion {
+          background-color: #3FCC59;
+          margin: 0;
+          padding: 4%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          height: auto;
+          gap: 10px;
+          display: grid;
+          grid-column: 12;
+          grid-template-areas:
+            '. . . sect3 sect3 sect3 baelibil baelibil baelibil . . .'
+        }
+
+        .elektrikersektion {
+          background-color: white;
+          margin: 0;
+          padding: 4%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          height: auto;
+          gap: 10px;
+          display: grid;
+          grid-column: 12;
+          grid-template-areas:
+            '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
         }
       }
