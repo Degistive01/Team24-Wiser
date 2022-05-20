@@ -1,35 +1,54 @@
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            .billedebox2 {
-                width: 100%;
-                height: auto;
-                padding-top: 17%;
-                padding-bottom: 17%;
-                background-image: url("../images/omwiserbanner.png");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                padding-left: 5%;
-            }
-            
-            .wiserintrosektion {
-                background-color: #3FCC59;
-                margin: 0;
-                padding: 4%;
-                padding-top: 50px;
-                padding-bottom: 50px;
-                height: auto;
-                gap: 10px;
-                display: grid;
-                grid-column: 12;
-                grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
-            }
-            
-            .blabla {
-                width: 100%;
-                height: 200px;
-                background-color: blue;
-            }
+                            * {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            .billedebox2 {
+                                width: 100%;
+                                height: auto;
+                                padding-top: 17%;
+                                padding-bottom: 17%;
+                                background-image: url("../images/omwiserbanner.png");
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                padding-left: 5%;
+                            }
+                            
+                            .wiserintrosektion {
+                                background-color: #3FCC59;
+                                margin: 0;
+                                padding: 4%;
+                                padding-top: 50px;
+                                padding-bottom: 50px;
+                                height: auto;
+                                gap: 10px;
+                                display: grid;
+                                grid-column: 12;
+                                grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+                            }
+                            
+                            .schneidertekst {
+                                grid-area: schneitekst;
+                                width: 100%;
+                                display: block;
+                            }
+                            
+                            .billedeafschneider {
+                                grid-area: schneiderbilled;
+                                width: 100%;
+                                display: block;
+                            }
+                            
+                            .afschneiderelectricsection {
+                                background-color: white;
+                                margin: 0;
+                                padding: 4%;
+                                padding-top: 85px;
+                                padding-bottom: 85px;
+                                height: auto;
+                                gap: 10px;
+                                display: grid;
+                                grid-column: 12;
+                                grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
+                            }
