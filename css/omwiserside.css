@@ -26,11 +26,16 @@
                 display: block;
             }
             
-            .slogan {
-                position: absolute;
-                top: 40%;
-                left: 5%;
-                color: white;
+            .billedebox2 {
+                width: 100%;
+                height: auto;
+                padding-top: 17%;
+                padding-bottom: 17%;
+                background-image: url("../images/omwiserbanner.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding-left: 5%;
             }
             
             .wiserintrosektion {
