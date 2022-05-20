@@ -27,6 +27,13 @@
   display: block;
 }
 
+.stemningsbillede {
+  object-fit: cover;
+  width: 100%;
+  height: 165px;
+  object-position: center 50%;
+}
+
 .wiserintrosektion {
   background-color: lightgreen;
   margin: 0;
