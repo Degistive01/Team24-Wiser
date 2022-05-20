@@ -19,7 +19,6 @@
   width: 100%;
   display: block;
   color: white;
-  font-family: arial Rounded MT;
 }
 
 .wiserappbillede {
@@ -37,7 +36,7 @@
 }
 
 .wiserintrosektion {
-  background-color: lightgreen;
+  background-color: #3FCC59;
   margin: 0;
   padding: 4%;
   padding-top: 50px;
@@ -103,7 +102,8 @@
 }
 
 .baeredygtigtlivsektion {
-  background-color: lightgreen;
+  background-color: #3FCC59;
+color: white;
   margin: 0;
   padding: 4%;
   padding-top: 50px;
