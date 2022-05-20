@@ -3,29 +3,6 @@
                 padding: 0;
             }
             
-            .container {
-                width: 100%;
-                display: block;
-                color: white;
-            }
-            
-            .top-left {
-                position: absolute;
-                top: 450px;
-                left: 50px;
-                color: white;
-            }
-            
-            .billedebox1 {
-                width: 100%;
-                position: relative;
-            }
-            
-            .bannerbilledeomwiser {
-                width: 100%;
-                display: block;
-            }
-            
             .billedebox2 {
                 width: 100%;
                 height: auto;
@@ -49,4 +26,10 @@
                 display: grid;
                 grid-column: 12;
                 grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+            }
+            
+            .blabla {
+                width: 100%;
+                height: 200px;
+                background-color: blue;
             }
