@@ -78,8 +78,43 @@
   display: grid;
   grid-column: 12;
   grid-template-areas:
-    '. . . wiappbi2 wiappbi2 wiappbi2 sect2 sect2 sect2 . . .'
-    '. . . wiappbi2 wiappbi2 wiappbi2 spartekst spartekst spartekst . . .';
+    '. . . wiappbi2 wiappbi2 wiappbi2 wiappbi2 wiappbi2 wiappbi2 . . .'
+    '. . . sect2 sect2 sect2 sect2 sect2 sect2 . . .'
+    '. . . spartekst spartekst spartekst spartekst spartekst spartekst . . .';
+}
+
+.section3 {
+  grid-area: sect3;
+  width: 100%;
+  display: block;
+}
+
+.elektrikkertekst {
+  grid-area: elektekst;
+  width: 100%;
+  display: block;
+}
+
+.wiserappbillede3 {
+  grid-area: wiappbi3;
+  width: 100%;
+  display: block;
+}
+
+.elektrikersektion {
+  background-color: lightgreen;
+  margin: 0;
+  padding: 4%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas:
+  '. . . wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 . . .'
+  '. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .'
+  '. . . elektekst elektekst elektekst elektekst elektekst elektekst . . .';
 }
 
 @media only screen and (min-width: 600px) {
