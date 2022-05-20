@@ -99,13 +99,14 @@ a {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #9FA0A4;
+        background-color: #626469;
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
     .nav-item {
         margin: 16px 0;
+
 
     }
     .nav-menu.active {
