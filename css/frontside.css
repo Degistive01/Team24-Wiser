@@ -18,6 +18,8 @@
   grid-area: wiov;
   width: 100%;
   display: block;
+  color: white;
+  font-family: arial Rounded MT;
 }
 
 .wiserappbillede {
