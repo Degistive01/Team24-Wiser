@@ -9,11 +9,6 @@
   display: block;
 }
 
-.bannertekstboks {
-  width: 100%;
-  position: relative;
-  }
-
 .bannerbillede3 {
   grid-area: bil3;
   width: 100%;
