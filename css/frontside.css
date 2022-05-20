@@ -57,6 +57,7 @@
 .wiserappbillede2 {
   grid-area: wiappbi2;
   width: 100%;
+  min-width: 115px;
   display: block;
 }
 
@@ -73,17 +74,6 @@
   grid-template-areas:
     '. . . wiappbi2 wiappbi2 wiappbi2 sect2 sect2 sect2 . . .'
     '. . . wiappbi2 wiappbi2 wiappbi2 spartekst spartekst spartekst . . .';
-}
-
-.test1 {
-  margin-top: 10%;
-  padding: 5%;
-}
-
-.team {
-  display: flex;
-  width: auto;
-  justify-content: center;
 }
 
 @media only screen and (min-width: 600px) {
