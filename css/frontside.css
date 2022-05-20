@@ -113,9 +113,9 @@
   display: grid;
   grid-column: 12;
   grid-template-areas:
-  '. . . wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 . . .'
-  '. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
-  }
+    '. . . wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 wiappbi3 . . .'
+    '. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
+}
 
 .section4 {
   grid-area: sect4;
@@ -146,8 +146,8 @@
   display: grid;
   grid-column: 12;
   grid-template-areas:
-  '. . . wiappbi4 wiappbi4 wiappbi4 wiappbi4 wiappbi4 wiappbi4 . . .'
-  '. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
+    '. . . wiappbi4 wiappbi4 wiappbi4 wiappbi4 wiappbi4 wiappbi4 . . .'
+    '. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
 }
 
 @media only screen and (min-width: 600px) {
