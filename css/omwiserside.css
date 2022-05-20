@@ -1,0 +1,47 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .container {
+                width: 100%;
+                display: block;
+                color: white;
+            }
+            
+            .top-left {
+                position: absolute;
+                top: 450px;
+                left: 50px;
+                color: white;
+            }
+            
+            .billedebox1 {
+                width: 100%;
+                position: relative;
+            }
+            
+            .bannerbilledeomwiser {
+                width: 100%;
+                display: block;
+            }
+            
+            .slogan {
+                position: absolute;
+                top: 40%;
+                left: 70px;
+                color: white;
+            }
+            
+            .wiserintrosektion {
+                background-color: #3FCC59;
+                margin: 0;
+                padding: 4%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                height: auto;
+                gap: 10px;
+                display: grid;
+                grid-column: 12;
+                grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+            }
