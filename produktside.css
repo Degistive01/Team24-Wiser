@@ -3,18 +3,18 @@
   padding: 0;
 }
 
-.bannerbilledeforside {
+.bannerbilledeproduktside {
   width: 100%;
   display: block;
 }
 
-.bannerbillede3 {
+.wiserapptekst {
   grid-area: bil3;
   width: 100%;
   display: block;
 }
 
-.section {
+.wiserapp {
   grid-area: wiov;
   width: 100%;
   display: block;
@@ -35,7 +35,7 @@
   object-position: center 50%;
 }
 
-.wiserintrosektion {
+.wiserappsektion {
   background-color: #3FCC59;
   margin: 0;
   padding: 4%;
