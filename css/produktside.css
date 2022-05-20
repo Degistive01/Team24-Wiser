@@ -10,7 +10,13 @@
 
 .produkter{
   display: flex;
+  row-gap: 100px;
   flex-direction: column;
+
+
+
+
+
 }
 
 @media (min-width: 600px) {
