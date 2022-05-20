@@ -103,9 +103,6 @@ a {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        border-style: solid none;
-        border-color: white;
-        border-width: thin;
     }
     .nav-item {
         margin: 16px 0;
