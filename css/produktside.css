@@ -7,15 +7,26 @@
   width: 100%;
   display: block;
 }
-
+.produktpakker{
+  text-align: center;
+  font-size: 45px;
+  font-family: arial Rounded MT;
+  color: #3DCD58;
+  padding-top: 10px;
+}
 .produkter{
   display: flex;
-  row-gap: 100px;
+  row-gap: 25px;
   flex-direction: column;
-
-
-
-
+  background-color: white;
+  margin: 0;
+  padding: 10%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: arial;
 
 }
 
