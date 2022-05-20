@@ -99,7 +99,7 @@ a {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #3DCD58;
+        background-color: #9FA0A4;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -109,10 +109,7 @@ a {
     }
     .nav-item {
         margin: 16px 0;
-        border-style: solid none;
-        border-color: white;
-        border-top: none;
-        border-width: thin;
+
     }
     .nav-menu.active {
         left: 0;
