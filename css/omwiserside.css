@@ -53,6 +53,17 @@
                                         display: block;
                                     }
                                     
+                                    .itoverskrift {
+                                        grid-area: itsikker;
+                                        width: 100%;
+                                        display: block;
+                                        color: white;
+                                    }
+                                    
+                                    .itbeskrivelse {
+                                        color: white;
+                                    }
+                                    
                                     .nemtogsikkertsektion {
                                         background-color: #3DCD58;
                                         margin: 0;
