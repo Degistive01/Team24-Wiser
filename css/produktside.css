@@ -95,9 +95,9 @@
     '. . . . . . . . . . . .'
     '. . . fetb fetb fetb fetb fetb fetb . . .'
     '. . . . . . . . . . . .'
-    '. . . dvt dvt dvt dvt dvt dvt  . . .'
+    '. . . dvt dvt dvt dvt dvt dvt . . .'
     '. . . . . . . . . . . .'
-    '. . . dvtb dvtb dvtb dvtb dvtb dvtb  . . .';
+    '. . . dvtb dvtb dvtb dvtb dvtb dvtb . . .';
 }
 
 
@@ -198,6 +198,41 @@ grid-column: 12;
 grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb a2tb a2tb a2tb . . .';
 }
 
+@media (min-width: 800px) {
+  .slukaltbillede {
+    width: 100%;
+    min-width: 200px;
+    }
+
+  .feriebillede {
+    width: 100%;
+    min-width: 200px;
+    }
+
+  .dogvbillede {
+    width: 100%;
+    min-width: 200px;
+    }
+}
+
+@media (min-width: 700px) {
+  .slukaltbillede {
+    width: 100%;
+    min-width: 125px;
+    }
+
+  .feriebillede {
+    width: 100%;
+    min-width: 125px;
+    }
+
+  .dogvbillede {
+    width: 100%;
+    min-width: 125px;
+    }
+}
+
+
 
 @media (min-width: 600px) {
   .produktbannerbillede {
@@ -259,4 +294,18 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
       '. . . . . . . . . . . .'
       '. . . satb satb fetb fetb dvtb dvtb . . .';
   }
+  .slukaltbillede {
+    width: 100%;
+    min-width: 115px;
+    }
+
+  .feriebillede {
+    width: 100%;
+    min-width: 115px;
+    }
+
+  .dogvbillede {
+    width: 100%;
+    min-width: 100px;
+    }
   }
