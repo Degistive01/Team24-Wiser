@@ -160,4 +160,18 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-template-areas:
       '. . .  av2 av2 av2  a2tb a2tb a2tb . . .'
   }
+  .produkter{
+    display: flex;
+    display: block;
+    row-gap: 25px;
+    flex-direction: row;
+    background-color: white;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    text-align: center;
+  }
+
 }
