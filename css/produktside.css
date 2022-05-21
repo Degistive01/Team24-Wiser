@@ -306,6 +306,6 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
 
   .dogvbillede {
     width: 100%;
-    min-width: 100px;
+    min-width: 115px;
     }
   }
