@@ -3,10 +3,19 @@
   padding: 0;
 }
 
-.pbillede {
+.produktbannerbillede {
   width: 100%;
-  display: block;
+  height: auto;
+  padding-top: 17%;
+  padding-bottom: 17%;
+  background-image: url("../images/produktbanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  max-height: 650px;
 }
+
 .produktpakker{
   text-align: center;
   padding-top: 10px;
@@ -187,9 +196,8 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
 
 
 @media (min-width: 600px) {
-  .pbillede {
+  .produktbannerbillede {
     width: 100%;
-    display: block;
   }
   .wiserappmand {
     background-color: #3FCC59;
