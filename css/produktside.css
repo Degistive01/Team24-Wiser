@@ -11,62 +11,41 @@
   text-align: center;
   padding-top: 10px;
 }
-.slukalt{
-  grid-area: sla;
+
+/*.produkter{
+  background-color: white;
+  margin: 0;
+  padding: 4%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+}*/
+
+
+.slukaltboks {
+  grid-area: sa;
   width: 100%;
   display: block;
 }
 
-.slukalttekst{
-  grid-area: slukalttekst;
-  width: 100%;
-  display: block;
-}
-
-.slukalttekstboks{
-  grid-area: slatb;
-  width: 100%;
-  display: block;
-}
-
-.ferie{
+.ferieboks {
   grid-area: fe;
   width: 100%;
   display: block;
 }
 
-.ferietekst{
-  grid-area: ferietekst;
+.dogvboks {
+  grid-area: dv;
   width: 100%;
   display: block;
 }
 
-.ferietekstboks{
-  grid-area: fetb;
-  width: 100%;
-  display: block;
-}
-
-.dogv{
-  grid-area: dgv;
-  width: 100%;
-  display: block;
-}
-
-.dogvtekst{
-  grid-area: dogvtekst;
-  width: 100%;
-  display: block;
-}
-
-.dogvtekstboks{
-  grid-area: dgvtb;
-  width: 100%;
-  display: block;
-}
-
-
-.produkter{
+.produkter {
   background-color: white;
   margin: 0;
   padding: 4%;
@@ -76,13 +55,12 @@
   gap: 10px;
   display: grid;
   grid-column: 12;
-  grid-template-areas: '. . . sla sla sla sla sla sla . . .'
-                       '. . . slatb slatb slatb slatb slatb slatb . . .'
-                       '. . . fe fe fe fe fe fe . . .'
-                       '. . . fetb fetb fetb fetb fetb fetb. . .'
-                       '. . . dgv dgv dgv dgv dgv dgv. . .'
-                       '. . . dgvtb dgvtb dgvtb dgvtb dgvtb dgvtb. . .';
+  grid-template-areas:
+    '. . . sa sa sa sa sa sa . . .'
+    '. . . fe fe fe fe fe fe . . .'
+    '. . . dv dv dv dv dv dv  . . .';
 }
+
 
 .wiserapptekst {
     grid-area: wisermandtekst;
@@ -220,5 +198,16 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-template-areas:
       '. . .  av2 av2 av2  a2tb a2tb a2tb . . .'
   }
-
+  /*.produkter{
+    background-color: white;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    }*/
   }
