@@ -21,7 +21,10 @@
   padding-top: 85px;
   padding-bottom: 85px;
   height: auto;
-  text-align: center;
+}
+
+.produktundertitler{
+  display:block;
 }
 
 .wiserapptekst {
@@ -162,7 +165,6 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
   }
   .produkter{
     display: flex;
-    display: block;
     row-gap: 25px;
     flex-direction: row;
     background-color: white;
@@ -171,7 +173,10 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     padding-top: 50px;
     padding-bottom: 50px;
     height: auto;
-    text-align: center;
+  }
+
+  .produktundertitler{
+    display:block;
   }
 
 }
