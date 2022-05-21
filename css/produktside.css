@@ -12,54 +12,59 @@
   padding-top: 10px;
 }
 
-/*.produkter{
-  background-color: white;
-  margin: 0;
-  padding: 4%;
-  padding-top: 85px;
-  padding-bottom: 85px;
-  height: auto;
-  gap: 10px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  text-align: center;
-}*/
 
-.slukaltbokstest {
+.slukaltboks {
   grid-area: sat;
   width: 100%;
   display: block;
 }
 
-.feriebokstest {
+.ferieboks {
   grid-area: fet;
   width: 100%;
   display: block;
 }
 
-.dogvbokstest {
+.dogvboks {
   grid-area: dvt;
   width: 100%;
   display: block;
 }
 
-.test1 {
+.slukaltbillede {
   width: 100%;
   }
 
-.test2 {
+.feriebillede {
   width: 100%;
   }
 
-.test3 {
+.dogvbillede {
   width: 100%;
   }
+
+.slukalttekstboks{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.ferietekstboks{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.dogvtekstboks{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
 
 .produktpakkerboks {
   background-color: white;
   margin: 0;
-  padding: 4%;
+  padding: 15%;
   padding-top: 85px;
   padding-bottom: 85px;
   height: auto;
@@ -72,39 +77,6 @@
     '. . . dvt dvt dvt dvt dvt dvt  . . .';
 }
 
-.slukaltboks {
-  grid-area: sa;
-  width: 100%;
-  display: block;
-}
-
-.ferieboks {
-  grid-area: fe;
-  width: 100%;
-  display: block;
-}
-
-.dogvboks {
-  grid-area: dv;
-  width: 100%;
-  display: block;
-}
-
-.produkter {
-  background-color: white;
-  margin: 0;
-  padding: 4%;
-  padding-top: 85px;
-  padding-bottom: 85px;
-  height: auto;
-  gap: 10px;
-  display: grid;
-  grid-column: 12;
-  grid-template-areas:
-    '. . . sa sa sa sa sa sa . . .'
-    '. . . fe fe fe fe fe fe . . .'
-    '. . . dv dv dv dv dv dv  . . .';
-}
 
 
 .wiserapptekst {
@@ -257,16 +229,4 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-template-areas:
       '. . . sat sat fet fet dvt dvt . . .';
   }
-  /*.produkter{
-    background-color: white;
-    margin: 0;
-    padding: 4%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: auto;
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    }*/
   }
