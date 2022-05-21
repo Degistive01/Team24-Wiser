@@ -126,6 +126,7 @@ grid-template-areas: '. . . wpmb wpmb wpmb wpmb wpmb wpmb . . .' '. . . wptb wpt
     display: block;
 }
 
+
 .animtion1tekstboks {
     grid-area: a1tb;
     width: 100%;
@@ -136,6 +137,10 @@ grid-template-areas: '. . . wpmb wpmb wpmb wpmb wpmb wpmb . . .' '. . . wptb wpt
     grid-area: av1;
     width: 100%;
     display: block;
+}
+
+video{
+  width: 100%;
 }
 .animation1{
 background-color: white;
