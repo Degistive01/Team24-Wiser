@@ -11,20 +11,77 @@
   text-align: center;
   padding-top: 10px;
 }
+.slukalt{
+  grid-area: sla;
+  width: 100%;
+  display: block;
+}
+
+.slukalttekst{
+  grid-area: slukalttekst;
+  width: 100%;
+  display: block;
+}
+
+.slukalttekstboks{
+  grid-area: slatb;
+  width: 100%;
+  display: block;
+}
+
+.ferie{
+  grid-area: fe;
+  width: 100%;
+  display: block;
+}
+
+.ferietekst{
+  grid-area: ferietekst;
+  width: 100%;
+  display: block;
+}
+
+.ferietekstboks{
+  grid-area: fetb;
+  width: 100%;
+  display: block;
+}
+
+.dogv{
+  grid-area: dgv;
+  width: 100%;
+  display: block;
+}
+
+.dogvtekst{
+  grid-area: dogvtekst;
+  width: 100%;
+  display: block;
+}
+
+.dogvtekstboks{
+  grid-area: dgvtb;
+  width: 100%;
+  display: block;
+}
+
+
 .produkter{
-  display: flex;
-  row-gap: 25px;
-  flex-direction: column;
   background-color: white;
   margin: 0;
-  padding: 10%;
+  padding: 4%;
   padding-top: 85px;
   padding-bottom: 85px;
   height: auto;
-}
-
-.produktundertitler{
-  display:block;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . . sla sla sla sla sla sla . . .'
+                       '. . . slatb slatb slatb slatb slatb slatb . . .'
+                       '. . . fe fe fe fe fe fe . . .'
+                       '. . . fetb fetb fetb fetb fetb fetb. . .'
+                       '. . . dgv dgv dgv dgv dgv dgv. . .'
+                       '. . . dgvtb dgvtb dgvtb dgvtb dgvtb dgvtb. . .';
 }
 
 .wiserapptekst {
@@ -163,20 +220,5 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-template-areas:
       '. . .  av2 av2 av2  a2tb a2tb a2tb . . .'
   }
-  .produkter{
-    display: flex;
-    row-gap: 25px;
-    flex-direction: row;
-    background-color: white;
-    margin: 0;
-    padding: 4%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: auto;
-  }
 
-  .produktundertitler{
-    display:block;
   }
-
-}
