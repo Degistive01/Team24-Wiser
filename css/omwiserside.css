@@ -15,19 +15,6 @@
                                 padding-left: 5%;
                             }
                             
-                            .wiserintrosektion {
-                                background-color: #3FCC59;
-                                margin: 0;
-                                padding: 4%;
-                                padding-top: 50px;
-                                padding-bottom: 50px;
-                                height: auto;
-                                gap: 10px;
-                                display: grid;
-                                grid-column: 12;
-                                grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
-                            }
-                            
                             .schneidertekst {
                                 grid-area: schneitekst;
                                 width: 100%;
@@ -42,6 +29,19 @@
                             
                             .afschneiderelectricsection {
                                 background-color: white;
+                                margin: 0;
+                                padding: 4%;
+                                padding-top: 85px;
+                                padding-bottom: 85px;
+                                height: auto;
+                                gap: 10px;
+                                display: grid;
+                                grid-column: 12;
+                                grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
+                            }
+                            
+                            .nemtogsikkertsektion {
+                                background-color: #3DCD58;
                                 margin: 0;
                                 padding: 4%;
                                 padding-top: 85px;
