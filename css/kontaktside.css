@@ -19,13 +19,20 @@ background-image: green;
 
 form {
   max-width: 550px;
-  width: 90%;
+  width: 85%;
   background: lightgrey;
   margin: 12% auto 0 auto;
   padding: 40px;
   border-radius: 15px;
   box-sizing: border-box;
   margin-bottom: 12%;
+}
+
+@media only screen and (min-width: 600px) {
+  form {
+    margin: 5% auto 0 auto;
+    margin-bottom: 5%;
+}
 }
 
 h2 {
