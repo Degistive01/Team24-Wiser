@@ -42,14 +42,17 @@
 
 .slukaltbillede {
   width: 100%;
+  max-width: 400px;
   }
 
 .feriebillede {
   width: 100%;
+  max-width: 400px;
   }
 
 .dogvbillede {
   width: 100%;
+  max-width: 400px;
   }
 
 .slukalttekstboks{
@@ -96,6 +99,7 @@
     '. . . . . . . . . . . .'
     '. . . dvtb dvtb dvtb dvtb dvtb dvtb  . . .';
 }
+
 
 
 
@@ -252,6 +256,7 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-column: 12;
     grid-template-areas:
       '. . . sat sat fet fet dvt dvt . . .'
+      '. . . . . . . . . . . .'
       '. . . satb satb fetb fetb dvtb dvtb . . .';
   }
   }
