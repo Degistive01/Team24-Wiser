@@ -52,3 +52,16 @@
                                 grid-column: 12;
                                 grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
                             }
+                            
+                            .sulteneftermeresektion {
+                                background-color: white;
+                                margin: 0;
+                                padding: 4%;
+                                padding-top: 85px;
+                                padding-bottom: 85px;
+                                height: auto;
+                                gap: 10px;
+                                display: grid;
+                                grid-column: 12;
+                                grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
+                            }
