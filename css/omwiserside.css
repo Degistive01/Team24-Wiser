@@ -64,6 +64,24 @@
                                         color: white;
                                     }
                                     
+                                    .itbutton {
+                                        background-color: #42B4E6;
+                                        border: none;
+                                        color: white;
+                                        padding: 15px 30%;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                        border-radius: 10px;
+                                    }
+                                    
+                                    .knapbox {
+                                        display: flex;
+                                        justify-content: center;
+                                        margin-top: 50px;
+                                        margin-bottom: 100px;
+                                    }
+                                    
                                     .nemtogsikkertsektion {
                                         background-color: #3DCD58;
                                         margin: 0;
