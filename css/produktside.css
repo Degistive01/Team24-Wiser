@@ -44,23 +44,25 @@
   }
 
 .slukalttekstboks{
+  grid-area: satb;
   width: 100%;
-  height: auto;
   text-align: center;
+  display: block;
 }
 
 .ferietekstboks{
+  grid-area: fetb;
   width: 100%;
-  height: auto;
   text-align: center;
+  display: block;
 }
 
 .dogvtekstboks{
+  grid-area: dvtb;
   width: 100%;
-  height: auto;
   text-align: center;
+  display: block;
 }
-
 
 .produktpakkerboks {
   background-color: white;
@@ -74,8 +76,16 @@
   grid-column: 12;
   grid-template-areas:
     '. . . sat sat sat sat sat sat . . .'
+    '. . . . . . . . . . . .'
+    '. . . satb satb satb satb satb satb . . .'
+    '. . . . . . . . . . . .'
     '. . . fet fet fet fet fet fet . . .'
-    '. . . dvt dvt dvt dvt dvt dvt  . . .';
+    '. . . . . . . . . . . .'
+    '. . . fetb fetb fetb fetb fetb fetb . . .'
+    '. . . . . . . . . . . .'
+    '. . . dvt dvt dvt dvt dvt dvt  . . .'
+    '. . . . . . . . . . . .'
+    '. . . dvtb dvtb dvtb dvtb dvtb dvtb  . . .';
 }
 
 
@@ -228,6 +238,7 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     display: grid;
     grid-column: 12;
     grid-template-areas:
-      '. . . sat sat fet fet dvt dvt . . .';
+      '. . . sat sat fet fet dvt dvt . . .'
+      '. . . satb satb fetb fetb dvtb dvtb . . .';
   }
   }
