@@ -11,6 +11,13 @@
     max-height: 650px;
 }
 
+.kontakttekst {
+  margin-top: 50px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #overlay {
 width: 100%;
 height: 100%;
@@ -28,12 +35,16 @@ form {
   margin-bottom: 12%;
 }
 
-
-
 @media only screen and (min-width: 600px) {
   form {
     margin: 5% auto 0 auto;
     margin-bottom: 5%;
+}
+
+.kontakttekst {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 
