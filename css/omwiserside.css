@@ -1,67 +1,130 @@
-                            * {
-                                margin: 0;
-                                padding: 0;
-                            }
-                            
-                            .billedebox2 {
-                                width: 100%;
-                                height: auto;
-                                padding-top: 17%;
-                                padding-bottom: 17%;
-                                background-image: url("../images/omwiserbanner.png");
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: cover;
-                                padding-left: 5%;
-                            }
-                            
-                            .schneidertekst {
-                                grid-area: schneitekst;
-                                width: 100%;
-                                display: block;
-                            }
-                            
-                            .billedeafschneider {
-                                grid-area: schneiderbilled;
-                                width: 100%;
-                                display: block;
-                            }
-                            
-                            .afschneiderelectricsection {
-                                background-color: white;
-                                margin: 0;
-                                padding: 4%;
-                                padding-top: 85px;
-                                padding-bottom: 85px;
-                                height: auto;
-                                gap: 10px;
-                                display: grid;
-                                grid-column: 12;
-                                grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
-                            }
-                            
-                            .nemtogsikkertsektion {
-                                background-color: #3DCD58;
-                                margin: 0;
-                                padding: 4%;
-                                padding-top: 85px;
-                                padding-bottom: 85px;
-                                height: auto;
-                                gap: 10px;
-                                display: grid;
-                                grid-column: 12;
-                                grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
-                            }
-                            
-                            .sulteneftermeresektion {
-                                background-color: white;
-                                margin: 0;
-                                padding: 4%;
-                                padding-top: 85px;
-                                padding-bottom: 85px;
-                                height: auto;
-                                gap: 10px;
-                                display: grid;
-                                grid-column: 12;
-                                grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
-                            }
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    
+                                    .billedebox2 {
+                                        width: 100%;
+                                        height: auto;
+                                        padding-top: 17%;
+                                        padding-bottom: 17%;
+                                        background-image: url("../images/omwiserbanner.png");
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        background-size: cover;
+                                        padding-left: 5%;
+                                    }
+                                    
+                                    .schneidertekst {
+                                        grid-area: schneitekst;
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    
+                                    .billedeafschneider {
+                                        grid-area: schneiderbilled;
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    
+                                    .afschneiderelectricsection {
+                                        background-color: white;
+                                        margin: 0;
+                                        padding: 4%;
+                                        padding-top: 50px;
+                                        padding-bottom: 50px;
+                                        height: auto;
+                                        gap: 10px;
+                                        display: grid;
+                                        grid-column: 12;
+                                        grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .' '. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
+                                    }
+                                    
+                                    .itsikkerhed {
+                                        grid-area: itsikker;
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    
+                                    .itbillede {
+                                        grid-area: itover;
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    
+                                    .nemtogsikkertsektion {
+                                        background-color: #3DCD58;
+                                        margin: 0;
+                                        padding: 4%;
+                                        padding-top: 50px;
+                                        padding-bottom: 50px;
+                                        height: auto;
+                                        gap: 10px;
+                                        display: grid;
+                                        grid-column: 12;
+                                        grid-template-areas: '. . . itover itover itover itover itover itover. . .' '. . . itsikker itsikker itsikker itsikker itsikker itsikker . . .';
+                                    }
+                                    
+                                    .sultentekst {
+                                        grid-area: sultentek;
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    
+                                    .sultenbilled {
+                                        grid-area: sultenbille;
+                                        width: 100%;
+                                        display: block;
+                                    }
+                                    
+                                    .sulteneftermeresektion {
+                                        background-color: white;
+                                        margin: 0;
+                                        padding: 4%;
+                                        padding-top: 50px;
+                                        padding-bottom: 50px;
+                                        height: auto;
+                                        gap: 10px;
+                                        display: grid;
+                                        grid-column: 12;
+                                        grid-template-areas: '. . .sultenbille sultenbille sultenbille sultenbille sultenbille sultenbille . . .' '. . . sultentek sultentek sultentek sultentek sultentek sultentek . . .';
+                                    }
+                                    
+                                    @media only screen and (min-width: 600px) {
+                                        .afschneiderelectricsection {
+                                            background-color: white;
+                                            margin: 0;
+                                            padding: 4%;
+                                            padding-top: 50px;
+                                            padding-bottom: 50px;
+                                            height: auto;
+                                            gap: 10px;
+                                            display: grid;
+                                            grid-column: 12;
+                                            grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneitekst schneitekst schneitekst . . .'
+                                        }
+                                        .nemtogsikkertsektion {
+                                            background-color: #3FCC59;
+                                            margin: 0;
+                                            padding: 4%;
+                                            padding-top: 50px;
+                                            padding-bottom: 50px;
+                                            height: auto;
+                                            gap: 10px;
+                                            display: grid;
+                                            grid-column: 12;
+                                            grid-template-areas: '. . . itsikker itsikker itsikker itover itover itover  . . .'
+                                        }
+                                        .sulteneftermeresektion {
+                                            background-color: white;
+                                            margin: 0;
+                                            padding: 4%;
+                                            padding-top: 50px;
+                                            padding-bottom: 50px;
+                                            height: auto;
+                                            gap: 10px;
+                                            display: grid;
+                                            grid-column: 12;
+                                            grid-template-areas: '. . . sultenbille sultenbille sultenbille sultentek sultentek sultentek . . .'
+                                        }
+                                    }
