@@ -20,6 +20,7 @@
       grid-area: bil3;
       width: 100%;
       display: block;
+      color: white;
     }
 
     .section {
@@ -35,6 +36,10 @@
       min-width: 115px;
       display: block;
     }
+
+    .wiserintrooverskrift {
+      color: white;
+      }
 
     .stemningsbillede {
       object-fit: cover;
@@ -115,9 +120,9 @@
       color: white;
       }
 
-      .wiserintrooverskrift {
-        color: white;
-        }
+    .baeredygtigtoverskrift {
+      color: white;
+      }
 
     .baeredygtigtlivsektion {
       background-color: #3FCC59;
