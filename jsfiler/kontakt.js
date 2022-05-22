@@ -16,7 +16,7 @@ function validateForm() {
         errorFlag = true;
     }
     if (!emailIsValid(email.value)) {
-        errorNodes[1].innerText = "Skriv venligst rigtig Email";
+        errorNodes[1].innerText = "Skriv korrekt Email";
         email.classList.add("error-border");
         errorFlag = true;
 
