@@ -96,6 +96,7 @@
       grid-area: sect3;
       width: 100%;
       display: block;
+      color: white;
     }
 
     .baeredygtigtlivbillede {
@@ -109,6 +110,14 @@
       width: 100%;
       display: block;
     }
+
+    .baeredygtigtlivtekst {
+      color: white;
+      }
+
+      .wiserintrooverskrift {
+        color: white;
+        }
 
     .baeredygtigtlivsektion {
       background-color: #3FCC59;
