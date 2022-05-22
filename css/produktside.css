@@ -198,6 +198,11 @@ grid-column: 12;
 grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb a2tb a2tb a2tb . . .';
 }
 
+@media (min-width: 850px) {
+  .produktbannerbillede{
+    padding-top: 14%;
+  }
+
 @media (min-width: 800px) {
   .slukaltbillede {
     width: 100%;

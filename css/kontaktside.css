@@ -1,4 +1,4 @@
-.bannerbilledeforside {
+.bannerbilledekontakt {
     width: 100%;
     height: auto;
     padding-top: 17%;
@@ -34,6 +34,11 @@ form {
   box-sizing: border-box;
   margin-bottom: 12%;
 }
+
+@media (min-width: 850px) {
+  .bannerbilledekontakt{
+    padding-top: 14%;
+  }
 
 @media only screen and (min-width: 600px) {
   form {
