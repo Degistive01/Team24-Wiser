@@ -202,6 +202,7 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
   .produktbannerbillede{
     padding-top: 14%;
   }
+}
 
 @media (min-width: 800px) {
   .slukaltbillede {
@@ -299,18 +300,21 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
       '. . . . . . . . . . . .'
       '. . . satb satb fetb fetb dvtb dvtb . . .';
   }
-  .slukaltbillede {
-    width: 100%;
-    min-width: 115px;
-    }
 
-  .feriebillede {
-    width: 100%;
-    min-width: 115px;
-    }
+  }
+  @media (min-width: 455px) {
+    .slukaltbillede {
+      width: 100%;
+      min-width: 125px;
+      }
 
-  .dogvbillede {
-    width: 100%;
-    min-width: 115px;
-    }
+    .feriebillede {
+      width: 100%;
+      min-width: 125px;
+      }
+
+    .dogvbillede {
+      width: 100%;
+      min-width: 125px;
+      }
   }
