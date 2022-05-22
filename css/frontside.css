@@ -185,7 +185,17 @@
         height: 400px;
         object-position: center 50%;
       }
+        .section2{
+        padding-left: 50px;
       }
+      .section3{
+        padding-right: 50px;
+      }
+      .section4{
+        padding-left: 50px;
+      }
+
+    }
       @media (min-width: 850px) {
         .bannerbilledeforside{
           padding-top: 14%;
