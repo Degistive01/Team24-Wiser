@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+}
 header {
     background-color: #3DCD58;
 }
