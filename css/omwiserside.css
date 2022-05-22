@@ -68,7 +68,7 @@
                                         background-color: #42B4E6;
                                         border: none;
                                         color: white;
-                                        padding: 15px 30%;
+                                        padding: 20px 30%;
                                         text-align: center;
                                         text-decoration: none;
                                         font-size: 16px;
@@ -80,6 +80,8 @@
                                         justify-content: center;
                                         margin-top: 50px;
                                         margin-bottom: 100px;
+                                        padding-left: 20%;
+                                        padding-right: 20%;
                                     }
 
                                     .nemtogsikkertsektion {
@@ -170,10 +172,15 @@
                                             grid-column: 12;
                                             grid-template-areas: '. . . sultenbille sultenbille sultenbille sultentek sultentek sultentek . . .'
                                         }
-                                        
 
                                         @media (min-width: 850px) {
                                           .billedebox2 {
                                             padding-top: 14%;
                                           }
+                                    }
+                                    @media (min-width: 1010px) {
+                                      .knapbox {
+                                        padding-left: 30%;
+                                        padding-right: 30%;
+                                      }
                                     }
