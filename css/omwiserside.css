@@ -78,7 +78,7 @@
                                     .knapbox {
                                         display: flex;
                                         justify-content: center;
-                                        padding-top: 10%;
+                                        padding-top: 5%;
                                         padding-left: 20%;
                                         padding-right: 20%;
                                     }
@@ -179,7 +179,6 @@
                                     }
                                     @media (min-width: 1010px) {
                                       .knapbox {
-                                        padding-top: 5%;
                                         padding-left: 30%;
                                         padding-right: 30%;
                                       }
