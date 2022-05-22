@@ -4,6 +4,7 @@ const message = document.querySelector("#message");
 const success = document.querySelector("#success");
 const succes = document.querySelector("#succes");
 
+
 function validateForm() {
 
     if (nameInput.value.lenght < 1) {
