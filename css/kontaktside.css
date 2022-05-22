@@ -1,27 +1,27 @@
-.bannerbilledeforside {
-  width: 100%;
-  height: auto;
-  padding-top: 17%;
-  padding-bottom: 17%;
-  background-image: url("../images/kontaktteam.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-left: 5%;
-  max-height: 650px;
-}
+.bannerbilledekontakt {
+    width: 100%;
+    height: auto;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    background-image: url("../images/kontaktteam.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    max-height: 650px;
+  }
 
 .kontakttekst {
   margin-top: 50px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #overlay {
   width: 100%;
-  height: 100%;
-  background-image: green;
+    height: 100%;
+    background-image: green;
 }
 
 form {
@@ -35,22 +35,26 @@ form {
   margin-bottom: 12%;
 }
 
+@media (min-width: 850px) {
+  .bannerbilledekontakt {
+      padding-top: 14%;
+  }
+
 @media only screen and (min-width: 600px) {
   form {
     margin: 5% auto 0 auto;
     margin-bottom: 5%;
-  }
-
-  .kontakttekst {
+}
+.kontakttekst {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 }
 
 h2 {
   margin: 0;
-  text-align: center;
+   text-align: center;
 }
 
 label {
