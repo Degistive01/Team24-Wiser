@@ -1,13 +1,12 @@
 const nameInput = document.querySelector("#name");
 const email = document.querySelector("#email");
 const message = document.querySelector("#message");
-const succes = document.querySelector("#success");
+const success = document.querySelector("#success");
 const errorNodes = document.querySelectorAll(".error");
 
-
-
-
 function validateForm() {
-    console.log("success");
-
+    if (nameInput.value.lenght < 1) {
+        errorNodes[0].innerText = "Name cannot be blank";
+        nameInput.classList.add("error-border");
+    }
 }
