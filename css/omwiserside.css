@@ -119,7 +119,7 @@
                                         grid-column: 12;
                                         grid-template-areas: '. . .sultenbille sultenbille sultenbille sultenbille sultenbille sultenbille . . .' '. . . sultentek sultentek sultentek sultentek sultentek sultentek . . .';
                                     }
-                                  
+
 
                                     @media only screen and (min-width: 600px) {
                                         .afschneiderelectricsection {
