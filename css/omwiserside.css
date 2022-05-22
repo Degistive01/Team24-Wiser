@@ -178,9 +178,3 @@
                                             padding-top: 14%;
                                           }
                                     }
-                                    @media (min-width: 1010px) {
-                                      .knapbox {
-                                        padding-left: 30%;
-                                        padding-right: 30%;
-                                      }
-                                    }
