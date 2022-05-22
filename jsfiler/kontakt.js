@@ -8,6 +8,6 @@ const errorNodes = document.querySelectorAll(".error");
 
 
 function validateForm() {
-    console.log("succes");
+    console.log("success");
 
 }
