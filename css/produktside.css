@@ -228,46 +228,6 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     width: 100%;
     min-width: 200px;
     }
-    .wiserappmand {
-      background-color: #3FCC59;
-      margin: 0;
-      padding: 4%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas:
-        '. . . wpmb wpmb wpmb wptb wptb wptb . . .'
-    }
-    .animation1 {
-      background-color: white;
-      margin: 0;
-      padding: 4%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas:
-        '. . . a1tb a1tb a1tb av1 av1 av1  . . .'
-    }
-
-    .animation2 {
-      background-color: white;
-      margin: 0;
-      padding: 4%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas:
-        '. . .  av2 av2 av2  a2tb a2tb a2tb . . .'
-    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -283,6 +243,47 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
   }
   .animtion2tekstboks{
     padding-left: 50px;
+  }
+
+  .wiserappmand {
+    background-color: #3FCC59;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas:
+      '. . . wpmb wpmb wpmb wptb wptb wptb . . .'
+  }
+  .animation1 {
+    background-color: white;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas:
+      '. . . a1tb a1tb a1tb av1 av1 av1  . . .'
+  }
+
+  .animation2 {
+    background-color: white;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas:
+      '. . .  av2 av2 av2  a2tb a2tb a2tb . . .'
   }
 
   .produktpakkerboks {
@@ -317,5 +318,4 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
       width: 100%;
       min-width: 125px;
       }
-      
   }
