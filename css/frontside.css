@@ -4,16 +4,16 @@
     }
 
     .bannerbilledeforside {
-        width: 100%;
-        height: auto;
-        padding-top: 17%;
-        padding-bottom: 17%;
-        background-image: url("../images/wiser-fest.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding-left: 5%;
-        max-height: 650px;
+      width: 100%;
+      height: auto;
+      padding-top: 17%;
+      padding-bottom: 17%;
+      background-image: url("../images/wiser-fest.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding-left: 5%;
+      max-height: 650px;
     }
 
     .bannerbillede3 {
@@ -39,7 +39,7 @@
 
     .wiserintrooverskrift {
       color: white;
-      }
+    }
 
     .stemningsbillede {
       object-fit: cover;
@@ -118,11 +118,11 @@
 
     .baeredygtigtlivtekst {
       color: white;
-      }
+    }
 
     .baeredygtigtoverskrift {
       color: white;
-      }
+    }
 
     .baeredygtigtlivsektion {
       background-color: #3FCC59;
@@ -185,24 +185,28 @@
         height: 400px;
         object-position: center 50%;
       }
-        .section2{
-        padding-left: 50px;
-      }
-      .section3{
-        padding-right: 50px;
-      }
-      .section4{
-        padding-left: 50px;
+    }
+
+    @media (min-width: 850px) {
+      .bannerbilledeforside {
+        padding-top: 14%;
       }
 
-    }
-      @media (min-width: 850px) {
-        .bannerbilledeforside{
-          padding-top: 14%;
-        }
       @media only screen and (min-width: 600px) {
         .bannerbilledeforside {
           width: 100%;
+        }
+
+        .section2 {
+          padding-left: 50px;
+        }
+
+        .section3 {
+          padding-right: 50px;
+        }
+
+        .section4 {
+          padding-left: 50px;
         }
 
         .bannerbillede3 {
