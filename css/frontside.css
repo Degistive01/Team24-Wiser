@@ -187,11 +187,6 @@
       }
     }
 
-    @media (min-width: 850px) {
-      .bannerbilledeforside {
-        padding-top: 14%;
-      }
-
       @media only screen and (min-width: 600px) {
         .bannerbilledeforside {
           width: 100%;
@@ -275,4 +270,9 @@
           grid-template-areas:
             '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
         }
+
+        @media (min-width: 850px) {
+          .bannerbilledeforside {
+            padding-top: 14%;
+          }
       }

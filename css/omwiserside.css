@@ -170,4 +170,9 @@
                                             grid-column: 12;
                                             grid-template-areas: '. . . sultenbille sultenbille sultenbille sultentek sultentek sultentek . . .'
                                         }
+
+                                        @media (min-width: 850px) {
+                                          .billedebox2 {
+                                            padding-top: 14%;
+                                          }
                                     }
