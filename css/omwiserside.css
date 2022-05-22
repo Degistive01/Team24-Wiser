@@ -170,14 +170,7 @@
                                             grid-column: 12;
                                             grid-template-areas: '. . . sultenbille sultenbille sultenbille sultentek sultentek sultentek . . .'
                                         }
-                                        .knapbox {
-                                            display: flex;
-                                            padding-right: 50px;
-                                            padding-left: 70px;
-
-                                            margin-top: 50px;
-                                            margin-bottom: 100px;
-                                        }
+                                        
 
                                         @media (min-width: 850px) {
                                           .billedebox2 {
