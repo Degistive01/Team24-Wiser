@@ -121,7 +121,19 @@
                                     }
 
 
-                                    @media only screen and (min-width: 600px) {
+                                    @media only screen and (min-width: 850px) {
+                                      .schneidertekst {
+                                        padding-left: 50px;
+                                      }
+
+                                      .itsikkerhed {
+                                        padding-right: 50px;
+                                      }
+
+                                      .sultentekst {
+                                        padding-left: 50px;
+                                      }
+
                                         .afschneiderelectricsection {
                                             background-color: white;
                                             margin: 0;
