@@ -28,7 +28,7 @@ form {
   max-width: 550px;
   font-family: arial Rounded MT;
   width: 85%;
-  background: #3FCC59;
+  background: #9FA0A4;
   color: white;
   margin: 12% auto 0 auto;
   padding: 40px;
@@ -73,7 +73,7 @@ input[type="text"], textarea {
   outline: none;
   resize: none;
   border: none;
-  border-bottom: 2px solid #3FCC59;
+  border-bottom: 3.5px solid #3FCC59;
 }
 
 input[type="submit"] {
@@ -86,7 +86,7 @@ input[type="submit"] {
 }
 
 input[type="text"]:focus, textarea:focus {
-  border-bottom: 2px solid #42B4E6;
+  border-bottom: 3.5px solid #42B4E6;
 }
 
 .center {
