@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 .bannerbilledekontakt {
-=======
-.bannerbilledeforside {
->>>>>>> 88a7619aac7cb03898505bf0a39db04d57320bca
     width: 100%;
     height: auto;
     padding-top: 17%;
@@ -13,11 +9,7 @@
     background-size: cover;
     padding-left: 5%;
     max-height: 650px;
-<<<<<<< HEAD
   }
-=======
-}
->>>>>>> 88a7619aac7cb03898505bf0a39db04d57320bca
 
 .kontakttekst {
   margin-top: 50px;
@@ -27,15 +19,9 @@
 }
 
 #overlay {
-<<<<<<< HEAD
   width: 100%;
     height: 100%;
     background-image: green;
-=======
-width: 100%;
-height: 100%;
-background-image: green;
->>>>>>> 88a7619aac7cb03898505bf0a39db04d57320bca
 }
 
 form {
@@ -59,18 +45,10 @@ form {
     margin: 5% auto 0 auto;
     margin-bottom: 5%;
 }
-<<<<<<< HEAD
 .kontakttekst {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
-=======
-
-.kontakttekst {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
->>>>>>> 88a7619aac7cb03898505bf0a39db04d57320bca
 }
 }
 
@@ -82,7 +60,7 @@ h2 {
 label {
   display: block;
   margin: 20px 0;
-  }
+}
 
 input[type="text"], textarea {
   width: 100%;
@@ -92,24 +70,24 @@ input[type="text"], textarea {
   resize: none;
   border: none;
   border-bottom: 2px solid #3FCC59;
-  }
+}
 
-  input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    outline: none;
-    resize: none;
-    border: none;
-    }
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+}
 
 input[type="text"]:focus, textarea:focus {
   border-bottom: 2px solid #42B4E6;
-  }
+}
 
-  .center {
-    text-align: center;
-  }
+.center {
+  text-align: center;
+}
 
 input[type="submit"] {
   margin-top: 30px;
@@ -120,12 +98,12 @@ input[type="submit"] {
   font-size: 17px;
   cursor: pointer;
   border-radius: 3px;
-  }
+}
 
-  .error {
-    color: red;
-  }
+.error {
+  color: red;
+}
 
-  .error-border {
-    border-bottom: 1px solid red;
-    }
+.error-border {
+  border-bottom: 1px solid red;
+}
