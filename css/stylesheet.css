@@ -26,11 +26,11 @@ h1 {
 
 h1 {
     font-family: arial Rounded MT;
-    font-size: 150%;
+    font-size: 200%;
     color: white;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 550px) {
   h1 {
     font-size: 325%;
   }
