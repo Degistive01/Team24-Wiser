@@ -285,8 +285,6 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     padding-left: 50px;
   }
 
-  
-
   .produktpakkerboks {
     background-color: white;
     margin: 0;
@@ -319,4 +317,5 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
       width: 100%;
       min-width: 125px;
       }
+      
   }
