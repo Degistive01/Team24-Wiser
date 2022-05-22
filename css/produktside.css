@@ -19,7 +19,6 @@
 .produktpakker{
   text-align: center;
   padding-top: 50px;
-  color: #3FCC59;
 }
 
 
@@ -138,9 +137,7 @@ grid-column: 12;
 grid-template-areas: '. . . wpmb wpmb wpmb wpmb wpmb wpmb . . .' '. . . wptb wptb wptb wptb wptb wptb . . .';
 }
 
-.animationoverskrift1{
-  color: #3FCC59;
-}
+
 
 .animationtekst1 {
     grid-area: animation1tekst;
@@ -177,9 +174,7 @@ grid-column: 12;
 grid-template-areas: '. . . av1 av1 av1 av1 av1 av1 . . .' '. . . a1tb a1tb a1tb a1tb a1tb a1tb . . .';
 }
 
-.animationoverskrift2{
-  color: #3FCC59;
-}
+
 
 .animationtekst2 {
     grid-area: animation2tekst;
