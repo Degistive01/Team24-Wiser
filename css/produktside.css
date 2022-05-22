@@ -230,7 +230,7 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 935px) {
   .produktbannerbillede {
     width: 100%;
   }
