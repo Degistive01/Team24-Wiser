@@ -83,6 +83,10 @@
                                         padding-right: 20%;
                                     }
 
+                                    .itbutton:hover{
+                                      background-color: #3087AD;
+                                    }
+
                                     .nemtogsikkertsektion {
                                         background-color: #3DCD58;
                                         margin: 0;

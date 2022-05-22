@@ -175,6 +175,10 @@
         padding-right: 20%;
     }
 
+    .elekbutton:hover{
+      background-color: #3087AD;
+    }
+
     .elektrikersektion {
       background-color: white;
       margin: 0;
