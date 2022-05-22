@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="jsfiler/navjs.js" defer></script>
+    <script src="jsfiler/kontakt.js" defer></script>
 </head>
 
 <body>
@@ -73,27 +74,23 @@
             <br><br>
         </div>
         <div id="overlay">
-            <form class="formtilgrid">
+            <form onsubmit="event.preventDeafult(); validateForm()" class="formtilgrid">
                 <h2>kontakt os</h2>
 
                 <label for="name">Navn:</label>
-                <input type="text" id="name" placeholder="Dit navn">
+                <input type="text" id="name" placeholder="Your name">
                 <small class="error"></small>
 
                 <label for="email">Email:</label>
-                <input type="text" id="email" placeholder="Din email">
+                <input type="text" id="email" placeholder="Your email">
                 <small class="error"></small>
 
-                <label for="subject">Emne:</label>
-                <input type="text" id="text" placeholder="Emne">
-                <small class="error"></small>
-
-                <label for="message">Beskedd:</label>
-                <textarea id="message" placeholder="Din besked" rows="6"></textarea>
+                <label for="message">Besked:</label>
+                <textarea id="message" placeholder="Your message" rows="6"></textarea>
                 <small class="error"></small>
 
                 <div class="center">
-                    <input type="submit" value="Send message">
+                    <input type="submit" value="Send Message">
                     <p id="succes"></p>
                 </div>
             </form>
