@@ -81,8 +81,9 @@ h3 {
 
 .logonav {
     float: left;
-    display: flex;
     margin-left: 20px;
+    width: 100%;
+    height: auto;
 
 }
 
