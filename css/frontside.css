@@ -125,8 +125,8 @@
         color: white;
         margin: 0;
         padding: 4%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 85px;
+        padding-bottom: 85px;
         height: auto;
         gap: 10px;
         display: grid;
@@ -181,8 +181,8 @@
         background-color: white;
         margin: 0;
         padding: 4%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 85px;
+        padding-bottom: 85px;
         height: auto;
         gap: 10px;
         display: grid;
@@ -292,7 +292,7 @@
             }
 
             .elekbutton{
-              max-width: 50%; 
+              max-width: 50%;
             }
         }
     }
