@@ -29,7 +29,7 @@ function validateForm() {
 
     }
     if (!errorFlag) {
-        success.innerText = "Tak for din besked!";
+        success.innerText = "Tak din besked er modtaget!";
     }
 }
 
