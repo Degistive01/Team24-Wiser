@@ -2,7 +2,7 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .bannerbilledeforside {
         width: 100%;
         height: auto;
@@ -15,32 +15,32 @@
         padding-left: 5%;
         max-height: 650px;
     }
-    
+
     .bannerbillede3 {
         grid-area: bil3;
         width: 100%;
         display: block;
         color: white;
     }
-    
+
     .section {
         grid-area: wiov;
         width: 100%;
         display: block;
         color: white;
     }
-    
+
     .wiserappbillede {
         grid-area: bil4;
         width: 100%;
         min-width: 115px;
         display: block;
     }
-    
+
     .wiserintrooverskrift {
         color: white;
     }
-    
+
     .stemningsbillede {
         object-fit: cover;
         display: block;
@@ -48,7 +48,7 @@
         height: 165px;
         object-position: center 50%;
     }
-    
+
     .wiserintrosektion {
         background-color: #3FCC59;
         margin: 0;
@@ -61,25 +61,25 @@
         grid-column: 12;
         grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
     }
-    
+
     .sparpengetekst {
         grid-area: spartekst;
         width: 100%;
         display: block;
     }
-    
+
     .section2 {
         grid-area: sect2;
         width: 100%;
         display: block;
     }
-    
+
     .elpaere {
         grid-area: elpaere;
         width: 100%;
         display: block;
     }
-    
+
     .sparpengesektion {
         background-color: white;
         margin: 0;
@@ -92,34 +92,34 @@
         grid-column: 12;
         grid-template-areas: '. . . elpaere elpaere elpaere elpaere elpaere elpaere . . .' '. . . sect2 sect2 sect2 sect2 sect2 sect2 . . .';
     }
-    
+
     .section3 {
         grid-area: sect3;
         width: 100%;
         display: block;
         color: white;
     }
-    
+
     .baeredygtigtlivbillede {
         grid-area: baelibil;
         width: 100%;
         display: block;
     }
-    
+
     .wiserappbillede3 {
         grid-area: wiappbi3;
         width: 100%;
         display: block;
     }
-    
+
     .baeredygtigtlivtekst {
         color: white;
     }
-    
+
     .baeredygtigtoverskrift {
         color: white;
     }
-    
+
     .baeredygtigtlivsektion {
         background-color: #3FCC59;
         color: white;
@@ -133,36 +133,36 @@
         grid-column: 12;
         grid-template-areas: '. . . baelibil baelibil baelibil baelibil baelibil baelibil . . .''. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
     }
-    
+
     .section4 {
         grid-area: sect4;
         width: 100%;
         display: block;
     }
-    
+
     .elektrikkertekst {
         grid-area: elektekst;
         width: 100%;
         display: block;
     }
-    
+
     .elektrikerbillede {
         grid-area: elekbil;
         width: 100%;
         display: block;
     }
-    
+
     .elekbutton {
         background-color: #42B4E6;
         border: none;
         color: white;
-        padding: 20px 30%;
+        padding: 20px;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         border-radius: 10px;
     }
-    
+
     .elekknapbox {
         display: flex;
         justify-content: center;
@@ -170,11 +170,11 @@
         padding-left: 20%;
         padding-right: 20%;
     }
-    
+
     .elekbutton:hover {
         background-color: #3087AD;
     }
-    
+
     .elektrikersektion {
         background-color: white;
         margin: 0;
@@ -187,14 +187,14 @@
         grid-column: 12;
         grid-template-areas: '. . . elekbil elekbil elekbil elekbil elekbil elekbil . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
     }
-    
+
     #midlertidigtekstitproblemer {
         padding-top: 50px;
         text-align: center;
         font-size: 85%;
         font-style: italic;
     }
-    
+
     @media only screen and (min-width: 420px) {
         .stemningsbillede {
             object-fit: cover;
@@ -203,7 +203,7 @@
             object-position: center 50%;
         }
     }
-    
+
     @media only screen and (min-width: 800px) {
         .stemningsbillede {
             object-fit: cover;
@@ -212,7 +212,7 @@
             object-position: center 50%;
         }
     }
-    
+
     @media only screen and (min-width: 750px) {
         .bannerbilledeforside {
             width: 100%;
