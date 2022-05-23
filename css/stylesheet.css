@@ -1,294 +1,280 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 header {
-  background-color: #3DCD58;
+    background-color: #3DCD58;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  color: white;
-  text-decoration: none;
-  font-family: arial Rounded MT;
+    color: white;
+    text-decoration: none;
+    font-family: arial Rounded MT;
 }
 
 h1 {
-  font-family: arial Rounded MT;
-  font-size: 170%;
-  color: white;
+    font-family: arial Rounded MT;
+    font-size: 170%;
+    color: white;
 }
 
 h2 {
-  font-family: arial Rounded MT;
-  font-size: 200%;
-  color: black;
-  margin-bottom: 7px;
+    font-family: arial Rounded MT;
+    font-size: 200%;
+    color: black;
+    margin-bottom: 7px;
 }
 
 p {
-  font-family: arial;
-  font-size: 100%;
-  color: black;
+    font-family: arial;
+    font-size: 100%;
+    color: black;
 }
 
 h3 {
-  font-family: arial Rounded MT;
-  font-size: 140%;
-  color: black;
+    font-family: arial Rounded MT;
+    font-size: 140%;
+    color: black;
 }
 
 @media only screen and (min-width: 550px) {
-  h1 {
-    font-size: 325%;
-  }
-
-  h2 {
-    font-size: 250%;
-  }
-
-  p {
-    font-size: 115%;
-  }
+    h1 {
+        font-size: 325%;
+    }
+    h2 {
+        font-size: 250%;
+    }
+    p {
+        font-size: 115%;
+    }
 }
 
 @media only screen and (min-width: 900px) {
-  h1 {
-    font-size: 400%;
-  }
-
-  h2 {
-    font-size: 275%;
-  }
-
-  p {
-    font-size: 125%;
-  }
+    h1 {
+        font-size: 400%;
+    }
+    h2 {
+        font-size: 275%;
+    }
+    p {
+        font-size: 125%;
+    }
 }
 
 .navbar {
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
 }
 
 .logonav {
-  float: left;
-  display: flex;
-  margin-left: 20px;
+    float: left;
+    display: flex;
+    margin-left: 20px;
 }
 
 .nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-  margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-right: 30px;
 }
 
 .nav-link {
-  transition: 0.7s ease;
-  position: relative;
+    transition: 0.7s ease;
+    position: relative;
 }
 
 .nav-link::before {
-  content: '';
-  display: block;
-  height: 2px;
-  background: white;
-  position: absolute;
-  bottom: -.50em;
-  left: 0;
-  right: 0;
-  transform: scale(0, 1);
-  transition: transform ease-in-out 250ms;
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -.50em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
 }
 
 .nav-link:hover::before {
-  transform: scale(1, 1);
+    transform: scale(1, 1);
 }
 
 .hamburger {
-  display: none;
-  cursor: pointer;
+    display: none;
+    cursor: pointer;
 }
 
 .bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: white;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
 }
 
 @media (max-width: 900px) {
-  .hamburger {
-    display: block;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  .nav-menu {
-    position: absolute;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #626469;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
-
-  .nav-item {
-    margin: 16px 0;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
+    .hamburger {
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+        position: absolute;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #626469;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
 }
 
 .footer {
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  padding: 70px 0;
-  box-sizing: border-box;
-  background-color: #626469;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #626469;
 }
 
 .inner_footer {
-  display: block;
-  margin: 0 auto;
-  width: 1100px;
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
 }
 
 .inner_footer .logo_container {
-  width: 35%;
-  float: left;
-  height: 100%;
-  display: block;
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
 }
 
 .inner_footer .logo_container img {
-  width: 65%;
-  height: auto;
+    width: 65%;
+    height: auto;
 }
 
 .inner_footer .footer_third {
-  width: calc(21.6666666667 - 20px);
-  margin-right: 75px;
-  float: left;
-  height: 100%;
+    width: calc(21.6666666667 - 20px);
+    margin-right: 75px;
+    float: left;
+    height: 100%;
 }
 
 .inner_footer .footer_third:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .inner_footer .footer_third h5 {
-  font-family: arial Rounded MT;
-  font-size: 22px;
-  color: white;
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
+    font-family: arial Rounded MT;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .inner_footer .footer_third a {
-  font-family: arial;
-  font-size: 15px;
-  color: white;
-  display: block;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 
-.inner_footer .footer_third li {
-  display: inline-block;
-  padding: 0 10px;
+.inner_footer .footer_third p {
+    display: inline-block;
+    padding: 0 10px;
 }
 
 .fa-facebook:hover {
-  color: #9FA0A4;
+    color: #9FA0A4;
 }
 
 .fa-instagram:hover {
-  color: #9FA0A4;
+    color: #9FA0A4;
 }
 
 .fa-youtube:hover {
-  color: #9FA0A4;
+    color: #9FA0A4;
 }
 
 @media(max-width: 600px) {
-  .footer .inner_footer {
-    width: 90%;
-  }
-
-  .inner_footer .logo_container,
-  .inner_footer .footer_third {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+    .footer .inner_footer {
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 768px) {
-  .footer .inner_footer {
-    width: 90%;
-  }
-
-  .inner_footer .logo_container,
-  .inner_footer .footer_third {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+    .footer .inner_footer {
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 992px) {
-  .footer .inner_footer {
-    width: 90%;
-  }
-
-  .inner_footer .logo_container,
-  .inner_footer .footer_third {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+    .footer .inner_footer {
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 1200px) {
-  .footer .inner_footer {
-    width: 90%;
-  }
-
-  .inner_footer .logo_container,
-  .inner_footer .footer_third {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+    .footer .inner_footer {
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
