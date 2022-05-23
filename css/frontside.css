@@ -1,254 +1,87 @@
     * {
-      margin: 0;
-      padding: 0;
+        margin: 0;
+        padding: 0;
     }
-
+    
     .bannerbilledeforside {
-      width: 100%;
-      height: auto;
-      padding-top: 17%;
-      padding-bottom: 17%;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.2),
-          rgba(0, 0, 0, 0.2)), url("../images/forsidebannerbillede.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      padding-left: 5%;
-      max-height: 650px;
+        width: 100%;
+        height: auto;
+        padding-top: 17%;
+        padding-bottom: 17%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/forsidebannerbillede.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        max-height: 650px;
     }
-
+    
     .bannerbillede3 {
-      grid-area: bil3;
-      width: 100%;
-      display: block;
-      color: white;
-    }
-
-    .section {
-      grid-area: wiov;
-      width: 100%;
-      display: block;
-      color: white;
-    }
-
-    .wiserappbillede {
-      grid-area: bil4;
-      width: 100%;
-      min-width: 115px;
-      display: block;
-    }
-
-    .wiserintrooverskrift {
-      color: white;
-    }
-
-    .stemningsbillede {
-      object-fit: cover;
-      display: block;
-      width: 100%;
-      height: 165px;
-      object-position: center 50%;
-    }
-
-    .wiserintrosektion {
-      background-color: #3FCC59;
-      margin: 0;
-      padding: 4%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas:
-        '. . . wiov wiov wiov bil4 bil4 bil4 . . .'
-        '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
-    }
-
-    .sparpengetekst {
-      grid-area: spartekst;
-      width: 100%;
-      display: block;
-    }
-
-    .section2 {
-      grid-area: sect2;
-      width: 100%;
-      display: block;
-    }
-
-    .elpaere {
-      grid-area: elpaere;
-      width: 100%;
-      display: block;
-    }
-
-    .sparpengesektion {
-      background-color: white;
-      margin: 0;
-      padding: 4%;
-      padding-top: 85px;
-      padding-bottom: 85px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas:
-        '. . . elpaere elpaere elpaere elpaere elpaere elpaere . . .'
-        '. . . sect2 sect2 sect2 sect2 sect2 sect2 . . .';
-    }
-
-    .section3 {
-      grid-area: sect3;
-      width: 100%;
-      display: block;
-      color: white;
-    }
-
-    .baeredygtigtlivbillede {
-      grid-area: baelibil;
-      width: 100%;
-      display: block;
-    }
-
-    .wiserappbillede3 {
-      grid-area: wiappbi3;
-      width: 100%;
-      display: block;
-    }
-
-    .baeredygtigtlivtekst {
-      color: white;
-    }
-
-    .baeredygtigtoverskrift {
-      color: white;
-    }
-
-    .baeredygtigtlivsektion {
-      background-color: #3FCC59;
-      color: white;
-      margin: 0;
-      padding: 4%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas: '. . . baelibil baelibil baelibil baelibil baelibil baelibil . . .''. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
-    }
-
-    .section4 {
-      grid-area: sect4;
-      width: 100%;
-      display: block;
-    }
-
-    .elektrikkertekst {
-      grid-area: elektekst;
-      width: 100%;
-      display: block;
-    }
-
-    .elektrikerbillede {
-      grid-area: elekbil;
-      width: 100%;
-      display: block;
-    }
-
-    .elekbutton {
-      background-color: #42B4E6;
-      border: none;
-      color: white;
-      padding: 20px 30%;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      border-radius: 10px;
-    }
-
-    .elekknapbox {
-      display: flex;
-      justify-content: center;
-      padding-top: 10%;
-      padding-left: 20%;
-      padding-right: 20%;
-    }
-
-    .elekbutton:hover {
-      background-color: #3087AD;
-    }
-
-    .elektrikersektion {
-      background-color: white;
-      margin: 0;
-      padding: 4%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-      gap: 10px;
-      display: grid;
-      grid-column: 12;
-      grid-template-areas: '. . . elekbil elekbil elekbil elekbil elekbil elekbil . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
-    }
-
-    #midlertidigtekstitproblemer {
-      padding-top: 50px;
-      text-align: center;
-      font-size: 85%;
-      font-style: italic;
-    }
-
-    @media only screen and (min-width: 420px) {
-      .stemningsbillede {
-        object-fit: cover;
-        width: 100%;
-        height: 250px;
-        object-position: center 50%;
-      }
-    }
-
-    @media only screen and (min-width: 800px) {
-      .stemningsbillede {
-        object-fit: cover;
-        width: 100%;
-        height: 400px;
-        object-position: center 50%;
-      }
-    }
-
-    @media only screen and (min-width: 750px) {
-      .bannerbilledeforside {
-        width: 100%;
-      }
-
-      .section2 {
-        padding-left: 50px;
-      }
-
-      .section3 {
-        padding-right: 50px;
-      }
-
-      .section4 {
-        padding-left: 50px;
-      }
-
-      .bannerbillede3 {
         grid-area: bil3;
         width: 100%;
-      }
-
-      .wiserappbillede {
+        display: block;
+        color: white;
+    }
+    
+    .section {
+        grid-area: wiov;
+        width: 100%;
+        display: block;
+        color: white;
+    }
+    
+    .wiserappbillede {
         grid-area: bil4;
-        width: 55%;
-        min-width: 55%;
-        margin-left: 30%;
-      }
-
-      .wiserintrosektion {
+        width: 100%;
+        min-width: 115px;
+        display: block;
+    }
+    
+    .wiserintrooverskrift {
+        color: white;
+    }
+    
+    .stemningsbillede {
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 165px;
+        object-position: center 50%;
+    }
+    
+    .wiserintrosektion {
         background-color: #3FCC59;
+        margin: 0;
+        padding: 4%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-column: 12;
+        grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+    }
+    
+    .sparpengetekst {
+        grid-area: spartekst;
+        width: 100%;
+        display: block;
+    }
+    
+    .section2 {
+        grid-area: sect2;
+        width: 100%;
+        display: block;
+    }
+    
+    .elpaere {
+        grid-area: elpaere;
+        width: 100%;
+        display: block;
+    }
+    
+    .sparpengesektion {
+        background-color: white;
         margin: 0;
         padding: 4%;
         padding-top: 85px;
@@ -257,25 +90,39 @@
         gap: 10px;
         display: grid;
         grid-column: 12;
-        grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .''. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
-      }
-
-      .sparpengesektion {
-        background-color: white;
-        margin: 0;
-        padding: 4%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        height: auto;
-        gap: 10px;
-        display: grid;
-        grid-column: 12;
-        grid-template-areas:
-          '. . . elpaere elpaere elpaere sect2 sect2 sect2 . . .'
-      }
-
-      .baeredygtigtlivsektion {
+        grid-template-areas: '. . . elpaere elpaere elpaere elpaere elpaere elpaere . . .' '. . . sect2 sect2 sect2 sect2 sect2 sect2 . . .';
+    }
+    
+    .section3 {
+        grid-area: sect3;
+        width: 100%;
+        display: block;
+        color: white;
+    }
+    
+    .baeredygtigtlivbillede {
+        grid-area: baelibil;
+        width: 100%;
+        display: block;
+    }
+    
+    .wiserappbillede3 {
+        grid-area: wiappbi3;
+        width: 100%;
+        display: block;
+    }
+    
+    .baeredygtigtlivtekst {
+        color: white;
+    }
+    
+    .baeredygtigtoverskrift {
+        color: white;
+    }
+    
+    .baeredygtigtlivsektion {
         background-color: #3FCC59;
+        color: white;
         margin: 0;
         padding: 4%;
         padding-top: 50px;
@@ -284,11 +131,51 @@
         gap: 10px;
         display: grid;
         grid-column: 12;
-        grid-template-areas:
-          '. . . sect3 sect3 sect3 baelibil baelibil baelibil . . .'
-      }
-
-      .elektrikersektion {
+        grid-template-areas: '. . . baelibil baelibil baelibil baelibil baelibil baelibil . . .''. . . sect3 sect3 sect3 sect3 sect3 sect3 . . .';
+    }
+    
+    .section4 {
+        grid-area: sect4;
+        width: 100%;
+        display: block;
+    }
+    
+    .elektrikkertekst {
+        grid-area: elektekst;
+        width: 100%;
+        display: block;
+    }
+    
+    .elektrikerbillede {
+        grid-area: elekbil;
+        width: 100%;
+        display: block;
+    }
+    
+    .elekbutton {
+        background-color: #42B4E6;
+        border: none;
+        color: white;
+        padding: 20px 30%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    
+    .elekknapbox {
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    .elekbutton:hover {
+        background-color: #3087AD;
+    }
+    
+    .elektrikersektion {
         background-color: white;
         margin: 0;
         padding: 4%;
@@ -298,12 +185,108 @@
         gap: 10px;
         display: grid;
         grid-column: 12;
-        grid-template-areas:
-          '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
-      }
-
-      @media (min-width: 850px) {
-        .bannerbilledeforside {
-          padding-top: 14%;
+        grid-template-areas: '. . . elekbil elekbil elekbil elekbil elekbil elekbil . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
+    }
+    
+    #midlertidigtekstitproblemer {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 85%;
+        font-style: italic;
+    }
+    
+    @media only screen and (min-width: 420px) {
+        .stemningsbillede {
+            object-fit: cover;
+            width: 100%;
+            height: 250px;
+            object-position: center 50%;
         }
-      }
+    }
+    
+    @media only screen and (min-width: 800px) {
+        .stemningsbillede {
+            object-fit: cover;
+            width: 100%;
+            height: 400px;
+            object-position: center 50%;
+        }
+    }
+    
+    @media only screen and (min-width: 750px) {
+        .bannerbilledeforside {
+            width: 100%;
+        }
+        .section2 {
+            padding-left: 50px;
+        }
+        .section3 {
+            padding-right: 50px;
+        }
+        .section4 {
+            padding-left: 50px;
+        }
+        .bannerbillede3 {
+            grid-area: bil3;
+            width: 100%;
+        }
+        .wiserappbillede {
+            grid-area: bil4;
+            width: 55%;
+            min-width: 55%;
+            margin-left: 30%;
+        }
+        .wiserintrosektion {
+            background-color: #3FCC59;
+            margin: 0;
+            padding: 4%;
+            padding-top: 85px;
+            padding-bottom: 85px;
+            height: auto;
+            gap: 10px;
+            display: grid;
+            grid-column: 12;
+            grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .''. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+        }
+        .sparpengesektion {
+            background-color: white;
+            margin: 0;
+            padding: 4%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            height: auto;
+            gap: 10px;
+            display: grid;
+            grid-column: 12;
+            grid-template-areas: '. . . elpaere elpaere elpaere sect2 sect2 sect2 . . .'
+        }
+        .baeredygtigtlivsektion {
+            background-color: #3FCC59;
+            margin: 0;
+            padding: 4%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            height: auto;
+            gap: 10px;
+            display: grid;
+            grid-column: 12;
+            grid-template-areas: '. . . sect3 sect3 sect3 baelibil baelibil baelibil . . .'
+        }
+        .elektrikersektion {
+            background-color: white;
+            margin: 0;
+            padding: 4%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            height: auto;
+            gap: 10px;
+            display: grid;
+            grid-column: 12;
+            grid-template-areas: '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
+        }
+        @media (min-width: 850px) {
+            .bannerbilledeforside {
+                padding-top: 14%;
+            }
+        }
+    }
