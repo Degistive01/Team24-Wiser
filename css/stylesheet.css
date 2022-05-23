@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color: #FDFEFF;
+}
+
 button {
     cursor: pointer;
 }
@@ -31,20 +35,20 @@ h1 {
 h2 {
     font-family: arial Rounded MT;
     font-size: 200%;
-    color: black;
+    color: #1F1F1F;
     margin-bottom: 7px;
 }
 
 p {
     font-family: arial;
     font-size: 100%;
-    color: black;
+    color: #1F1F1F;
 }
 
 h3 {
     font-family: arial Rounded MT;
     font-size: 140%;
-    color: black;
+    color: #1F1F1F;
 }
 
 @media only screen and (min-width: 550px) {
@@ -83,6 +87,7 @@ h3 {
     float: left;
     display: flex;
     margin-left: 30px;
+
 }
 
 .nav-menu {
@@ -190,7 +195,7 @@ h3 {
 }
 
 .inner_footer .footer_third {
-    width: calc(21.6666666667);
+    width: calc(21.6666666667 - 20px);
     margin-right: 75px;
     float: left;
     height: 100%;
