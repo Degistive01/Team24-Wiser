@@ -9,7 +9,7 @@
   padding-top: 17%;
   padding-bottom: 17%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35),
-                   rgba(0, 0, 0, 0.35)),url("../images/produktbannerbillede.jpg");
+      rgba(0, 0, 0, 0.35)), url("../images/produktbannerbillede.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,11 +17,10 @@
   max-height: 650px;
 }
 
-.produktpakker{
+.produktpakker {
   text-align: center;
   padding-top: 50px;
 }
-
 
 .slukaltboks {
   grid-area: sat;
@@ -44,33 +43,33 @@
 .slukaltbillede {
   width: 100%;
   max-width: 400px;
-  }
+}
 
 .feriebillede {
   width: 100%;
   max-width: 400px;
-  }
+}
 
 .dogvbillede {
   width: 100%;
   max-width: 400px;
-  }
+}
 
-.slukalttekstboks{
+.slukalttekstboks {
   grid-area: satb;
   width: 100%;
   text-align: center;
   display: block;
 }
 
-.ferietekstboks{
+.ferietekstboks {
   grid-area: fetb;
   width: 100%;
   text-align: center;
   display: block;
 }
 
-.dogvtekstboks{
+.dogvtekstboks {
   grid-area: dvtb;
   width: 100%;
   text-align: center;
@@ -101,127 +100,123 @@
     '. . . dvtb dvtb dvtb dvtb dvtb dvtb . . .';
 }
 
-
-.wiserappoverskrift{
+.wiserappoverskrift {
   color: white;
 }
 
 .wiserapptekst {
-    grid-area: wisermandtekst;
-    width: 100%;
-    display: block;
-    color: white;
+  grid-area: wisermandtekst;
+  width: 100%;
+  display: block;
+  color: white;
 }
 
 .wiserapptekstboks {
-    grid-area: wptb;
-    width: 100%;
-    display: block;
-
+  grid-area: wptb;
+  width: 100%;
+  display: block;
 }
 
 .wiserappmandbillede {
-    grid-area: wpmb;
-    width: 100%;
-    display: block;
-}
-.wiserappmand{
-background-color: #3FCC59;
-margin: 0;
-padding: 4%;
-padding-top: 85px;
-padding-bottom: 85px;
-height: auto;
-gap: 10px;
-display: grid;
-grid-column: 12;
-grid-template-areas: '. . . wpmb wpmb wpmb wpmb wpmb wpmb . . .' '. . . wptb wptb wptb wptb wptb wptb . . .';
+  grid-area: wpmb;
+  width: 100%;
+  display: block;
 }
 
-
+.wiserappmand {
+  background-color: #3FCC59;
+  margin: 0;
+  padding: 4%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . . wpmb wpmb wpmb wpmb wpmb wpmb . . .''. . . wptb wptb wptb wptb wptb wptb . . .';
+}
 
 .animationtekst1 {
-    grid-area: animation1tekst;
-    width: 100%;
-    display: block;
+  grid-area: animation1tekst;
+  width: 100%;
+  display: block;
 }
 
-
 .animtion1tekstboks {
-    grid-area: a1tb;
-    width: 100%;
-    display: block;
+  grid-area: a1tb;
+  width: 100%;
+  display: block;
 }
 
 .animationsvideo1 {
-    grid-area: av1;
-    width: 100%;
-    display: block;
+  grid-area: av1;
+  width: 100%;
+  display: block;
 }
 
-video{
+video {
   width: 100%;
 }
-.animation1{
-background-color: white;
-margin: 0;
-padding: 4%;
-padding-top: 85px;
-padding-bottom: 85px;
-height: auto;
-gap: 10px;
-display: grid;
-grid-column: 12;
-grid-template-areas: '. . . av1 av1 av1 av1 av1 av1 . . .' '. . . a1tb a1tb a1tb a1tb a1tb a1tb . . .';
+
+.animation1 {
+  background-color: white;
+  margin: 0;
+  padding: 4%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . . av1 av1 av1 av1 av1 av1 . . .''. . . a1tb a1tb a1tb a1tb a1tb a1tb . . .';
 }
 
-
-
 .animationtekst2 {
-    grid-area: animation2tekst;
-    width: 100%;
-    display: block;
+  grid-area: animation2tekst;
+  width: 100%;
+  display: block;
 }
 
 .animtion2tekstboks {
-    grid-area: a2tb;
-    width: 100%;
-    display: block;
+  grid-area: a2tb;
+  width: 100%;
+  display: block;
 }
 
 .animationsvideo2 {
-    grid-area: av2;
-    width: 100%;
-    display: block;
+  grid-area: av2;
+  width: 100%;
+  display: block;
 }
-.animation2{
-background-color: white;
-margin: 0;
-padding: 4%;
-padding-top: 85px;
-padding-bottom: 85px;
-height: auto;
-gap: 10px;
-display: grid;
-grid-column: 12;
-grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb a2tb a2tb a2tb . . .';
+
+.animation2 {
+  background-color: white;
+  margin: 0;
+  padding: 4%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .''. . . a2tb a2tb a2tb a2tb a2tb a2tb . . .';
 }
 
 @media (min-width: 455px) {
   .slukaltbillede {
     width: 100%;
     min-width: 125px;
-    }
+  }
 
   .feriebillede {
     width: 100%;
     min-width: 125px;
-    }
+  }
 
   .dogvbillede {
     width: 100%;
     min-width: 125px;
-    }
+  }
 }
 
 @media (min-width: 600px) {
@@ -240,11 +235,10 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
       '. . . . . . . . . . . .'
       '. . . satb satb fetb fetb dvtb dvtb . . .';
   }
-
 }
 
 @media (min-width: 850px) {
-  .produktbannerbillede{
+  .produktbannerbillede {
     padding-top: 14%;
   }
 }
@@ -254,13 +248,15 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     width: 100%;
   }
 
-  .wiserapptekstboks{
+  .wiserapptekstboks {
     padding-left: 50px;
   }
-  .animtion1tekstboks{
+
+  .animtion1tekstboks {
     padding-right: 50px;
   }
-  .animtion2tekstboks{
+
+  .animtion2tekstboks {
     padding-left: 50px;
   }
 
@@ -277,6 +273,7 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-template-areas:
       '. . . wpmb wpmb wpmb wptb wptb wptb . . .'
   }
+
   .animation1 {
     background-color: white;
     margin: 0;
@@ -304,5 +301,4 @@ grid-template-areas: '. . . av2 av2 av2 av2 av2 av2 . . .' '. . . a2tb a2tb a2tb
     grid-template-areas:
       '. . .  av2 av2 av2  a2tb a2tb a2tb . . .'
   }
-
-  }
+}
