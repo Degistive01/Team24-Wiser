@@ -1,186 +1,186 @@
-                                    * {
-                                      margin: 0;
-                                      padding: 0;
-                                    }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-                                    .billedebox2 {
-                                      width: 100%;
-                                      height: auto;
-                                      padding-top: 17%;
-                                      padding-bottom: 17%;
-                                      background-image: linear-gradient(rgba(0, 0, 0, 0.25),
-                                          rgba(0, 0, 0, 0.25)), url("../images/omwiserbannerbillede.jpg");
-                                      background-repeat: no-repeat;
-                                      background-position: center;
-                                      background-size: cover;
-                                      padding-left: 5%;
-                                      max-height: 650px;
-                                    }
+.billedebox2 {
+  width: 100%;
+  height: auto;
+  padding-top: 17%;
+  padding-bottom: 17%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)), url("../images/omwiserbannerbillede.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  max-height: 650px;
+}
 
-                                    .schneidertekst {
-                                      grid-area: schneitekst;
-                                      width: 100%;
-                                      display: block;
-                                    }
+.schneidertekst {
+  grid-area: schneitekst;
+  width: 100%;
+  display: block;
+}
 
-                                    .billedeafschneider {
-                                      grid-area: schneiderbilled;
-                                      width: 100%;
-                                      display: block;
-                                    }
+.billedeafschneider {
+  grid-area: schneiderbilled;
+  width: 100%;
+  display: block;
+}
 
-                                    .afschneiderelectricsection {
-                                      background-color: white;
-                                      margin: 0;
-                                      padding: 4%;
-                                      padding-top: 50px;
-                                      padding-bottom: 50px;
-                                      height: auto;
-                                      gap: 10px;
-                                      display: grid;
-                                      grid-column: 12;
-                                      grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .''. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
-                                    }
+.afschneiderelectricsection {
+  background-color: white;
+  margin: 0;
+  padding: 4%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled schneiderbilled . . .''. . . schneitekst schneitekst schneitekst schneitekst schneitekst schneitekst . . .';
+}
 
-                                    .itsikkerhed {
-                                      grid-area: itsikker;
-                                      width: 100%;
-                                      display: block;
-                                    }
+.itsikkerhed {
+  grid-area: itsikker;
+  width: 100%;
+  display: block;
+}
 
-                                    .itbillede {
-                                      grid-area: itover;
-                                      width: 100%;
-                                      display: block;
-                                    }
+.itbillede {
+  grid-area: itover;
+  width: 100%;
+  display: block;
+}
 
-                                    .itoverskrift {
-                                      grid-area: itsikker;
-                                      width: 100%;
-                                      display: block;
-                                      color: white;
-                                    }
+.itoverskrift {
+  grid-area: itsikker;
+  width: 100%;
+  display: block;
+  color: white;
+}
 
-                                    .itbeskrivelse {
-                                      color: white;
-                                    }
+.itbeskrivelse {
+  color: white;
+}
 
-                                    .itbutton {
-                                      background-color: #42B4E6;
-                                      border: none;
-                                      color: white;
-                                      padding: 20px 30%;
-                                      text-align: center;
-                                      text-decoration: none;
-                                      font-size: 16px;
-                                      border-radius: 10px;
-                                    }
+.itbutton {
+  background-color: #42B4E6;
+  border: none;
+  color: white;
+  padding: 20px 30%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
 
-                                    .knapbox {
-                                      display: flex;
-                                      justify-content: center;
-                                      padding-top: 5%;
-                                      padding-left: 20%;
-                                      padding-right: 20%;
-                                    }
+.knapbox {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
 
-                                    .itbutton:hover {
-                                      background-color: #3087AD;
-                                    }
+.itbutton:hover {
+  background-color: #3087AD;
+}
 
-                                    .nemtogsikkertsektion {
-                                      background-color: #3DCD58;
-                                      margin: 0;
-                                      padding: 4%;
-                                      padding-top: 50px;
-                                      padding-bottom: 50px;
-                                      height: auto;
-                                      gap: 10px;
-                                      display: grid;
-                                      grid-column: 12;
-                                      grid-template-areas: '. . . itover itover itover itover itover itover. . .''. . . itsikker itsikker itsikker itsikker itsikker itsikker . . .';
-                                    }
+.nemtogsikkertsektion {
+  background-color: #3DCD58;
+  margin: 0;
+  padding: 4%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . . itover itover itover itover itover itover. . .''. . . itsikker itsikker itsikker itsikker itsikker itsikker . . .';
+}
 
-                                    .sultentekst {
-                                      grid-area: sultentek;
-                                      width: 100%;
-                                      display: block;
-                                    }
+.sultentekst {
+  grid-area: sultentek;
+  width: 100%;
+  display: block;
+}
 
-                                    .sultenbilled {
-                                      grid-area: sultenbille;
-                                      width: 100%;
-                                      display: block;
-                                    }
+.sultenbilled {
+  grid-area: sultenbille;
+  width: 100%;
+  display: block;
+}
 
-                                    .sulteneftermeresektion {
-                                      background-color: white;
-                                      margin: 0;
-                                      padding: 4%;
-                                      padding-top: 50px;
-                                      padding-bottom: 50px;
-                                      height: auto;
-                                      gap: 10px;
-                                      display: grid;
-                                      grid-column: 12;
-                                      grid-template-areas: '. . .sultenbille sultenbille sultenbille sultenbille sultenbille sultenbille . . .''. . . sultentek sultentek sultentek sultentek sultentek sultentek . . .';
-                                    }
+.sulteneftermeresektion {
+  background-color: white;
+  margin: 0;
+  padding: 4%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  gap: 10px;
+  display: grid;
+  grid-column: 12;
+  grid-template-areas: '. . .sultenbille sultenbille sultenbille sultenbille sultenbille sultenbille . . .''. . . sultentek sultentek sultentek sultentek sultentek sultentek . . .';
+}
 
-                                    @media only screen and (min-width: 850px) {
-                                      .schneidertekst {
-                                        padding-left: 50px;
-                                      }
+@media only screen and (min-width: 850px) {
+  .schneidertekst {
+    padding-left: 50px;
+  }
 
-                                      .itsikkerhed {
-                                        padding-right: 50px;
-                                      }
+  .itsikkerhed {
+    padding-right: 50px;
+  }
 
-                                      .sultentekst {
-                                        padding-left: 50px;
-                                      }
+  .sultentekst {
+    padding-left: 50px;
+  }
 
-                                      .afschneiderelectricsection {
-                                        background-color: white;
-                                        margin: 0;
-                                        padding: 4%;
-                                        padding-top: 50px;
-                                        padding-bottom: 50px;
-                                        height: auto;
-                                        gap: 10px;
-                                        display: grid;
-                                        grid-column: 12;
-                                        grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneitekst schneitekst schneitekst . . .'
-                                      }
+  .afschneiderelectricsection {
+    background-color: white;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas: '. . . schneiderbilled schneiderbilled schneiderbilled schneitekst schneitekst schneitekst . . .'
+  }
 
-                                      .nemtogsikkertsektion {
-                                        background-color: #3FCC59;
-                                        margin: 0;
-                                        padding: 4%;
-                                        padding-top: 50px;
-                                        padding-bottom: 50px;
-                                        height: auto;
-                                        gap: 10px;
-                                        display: grid;
-                                        grid-column: 12;
-                                        grid-template-areas: '. . . itsikker itsikker itsikker itover itover itover  . . .'
-                                      }
+  .nemtogsikkertsektion {
+    background-color: #3FCC59;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas: '. . . itsikker itsikker itsikker itover itover itover  . . .'
+  }
 
-                                      .sulteneftermeresektion {
-                                        background-color: white;
-                                        margin: 0;
-                                        padding: 4%;
-                                        padding-top: 50px;
-                                        padding-bottom: 50px;
-                                        height: auto;
-                                        gap: 10px;
-                                        display: grid;
-                                        grid-column: 12;
-                                        grid-template-areas: '. . . sultenbille sultenbille sultenbille sultentek sultentek sultentek . . .'
-                                      }
-                                    }
+  .sulteneftermeresektion {
+    background-color: white;
+    margin: 0;
+    padding: 4%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    gap: 10px;
+    display: grid;
+    grid-column: 12;
+    grid-template-areas: '. . . sultenbille sultenbille sultenbille sultentek sultentek sultentek . . .'
+  }
+}
 
-                                    @media (min-width: 850px) {
-                                      .billedebox2 {
-                                        padding-top: 14%;
-                                      }
-                                    }
+@media (min-width: 850px) {
+  .billedebox2 {
+    padding-top: 14%;
+  }
+}
