@@ -193,6 +193,12 @@
       grid-template-areas: '. . . elekbil elekbil elekbil elekbil elekbil elekbil . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
     }
 
+#midlertidigtekstitproblemer {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 85%;
+  font-style: italic;
+}
 
     @media only screen and (min-width: 420px) {
       .stemningsbillede {
