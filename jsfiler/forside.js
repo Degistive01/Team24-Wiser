@@ -9,7 +9,7 @@ for (let i = 0; i < insigterfunktion.length; i++) {
 
 document.getElementById("indsigter").innerHTML = text;
 
-let itproblemer = "aktiv";
+let itproblemer = "inaktiv";
 
 if (itproblemer == "aktiv") {
   document.getElementById("midlertidigtekstitproblemer").innerHTML = "Da hjemmesiden bliver opdateret i øjeblikket, kan nogle brugere opleve tekniske problemer";
