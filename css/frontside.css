@@ -9,7 +9,7 @@
       padding-top: 17%;
       padding-bottom: 17%;
       background-image: linear-gradient(rgba(0, 0, 0, 0.2),
-                       rgba(0, 0, 0, 0.2)), url("../images/forsidebannerbillede.jpg");
+          rgba(0, 0, 0, 0.2)), url("../images/forsidebannerbillede.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -158,25 +158,25 @@
     }
 
     .elekbutton {
-        background-color: #42B4E6;
-        border: none;
-        color: white;
-        padding: 20px 30%;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        border-radius: 10px;
+      background-color: #42B4E6;
+      border: none;
+      color: white;
+      padding: 20px 30%;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 10px;
     }
 
     .elekknapbox {
-        display: flex;
-        justify-content: center;
-        padding-top: 10%;
-        padding-left: 20%;
-        padding-right: 20%;
+      display: flex;
+      justify-content: center;
+      padding-top: 10%;
+      padding-left: 20%;
+      padding-right: 20%;
     }
 
-    .elekbutton:hover{
+    .elekbutton:hover {
       background-color: #3087AD;
     }
 
@@ -193,12 +193,12 @@
       grid-template-areas: '. . . elekbil elekbil elekbil elekbil elekbil elekbil . . .''. . . sect4 sect4 sect4 sect4 sect4 sect4 . . .';
     }
 
-#midlertidigtekstitproblemer {
-  padding-top: 50px;
-  text-align: center;
-  font-size: 85%;
-  font-style: italic;
-}
+    #midlertidigtekstitproblemer {
+      padding-top: 50px;
+      text-align: center;
+      font-size: 85%;
+      font-style: italic;
+    }
 
     @media only screen and (min-width: 420px) {
       .stemningsbillede {
@@ -218,92 +218,92 @@
       }
     }
 
-      @media only screen and (min-width: 750px) {
+    @media only screen and (min-width: 750px) {
+      .bannerbilledeforside {
+        width: 100%;
+      }
+
+      .section2 {
+        padding-left: 50px;
+      }
+
+      .section3 {
+        padding-right: 50px;
+      }
+
+      .section4 {
+        padding-left: 50px;
+      }
+
+      .bannerbillede3 {
+        grid-area: bil3;
+        width: 100%;
+      }
+
+      .wiserappbillede {
+        grid-area: bil4;
+        width: 55%;
+        min-width: 55%;
+        margin-left: 30%;
+      }
+
+      .wiserintrosektion {
+        background-color: #3FCC59;
+        margin: 0;
+        padding: 4%;
+        padding-top: 85px;
+        padding-bottom: 85px;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-column: 12;
+        grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .''. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+      }
+
+      .sparpengesektion {
+        background-color: white;
+        margin: 0;
+        padding: 4%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-column: 12;
+        grid-template-areas:
+          '. . . elpaere elpaere elpaere sect2 sect2 sect2 . . .'
+      }
+
+      .baeredygtigtlivsektion {
+        background-color: #3FCC59;
+        margin: 0;
+        padding: 4%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-column: 12;
+        grid-template-areas:
+          '. . . sect3 sect3 sect3 baelibil baelibil baelibil . . .'
+      }
+
+      .elektrikersektion {
+        background-color: white;
+        margin: 0;
+        padding: 4%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        gap: 10px;
+        display: grid;
+        grid-column: 12;
+        grid-template-areas:
+          '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
+      }
+
+      @media (min-width: 850px) {
         .bannerbilledeforside {
-          width: 100%;
+          padding-top: 14%;
         }
-
-        .section2 {
-          padding-left: 50px;
-        }
-
-        .section3 {
-          padding-right: 50px;
-        }
-
-        .section4 {
-          padding-left: 50px;
-        }
-
-        .bannerbillede3 {
-          grid-area: bil3;
-          width: 100%;
-        }
-
-        .wiserappbillede {
-          grid-area: bil4;
-          width: 55%;
-          min-width: 55%;
-          margin-left: 30%;
-        }
-
-        .wiserintrosektion {
-          background-color: #3FCC59;
-          margin: 0;
-          padding: 4%;
-          padding-top: 85px;
-          padding-bottom: 85px;
-          height: auto;
-          gap: 10px;
-          display: grid;
-          grid-column: 12;
-          grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .''. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
-        }
-
-        .sparpengesektion {
-          background-color: white;
-          margin: 0;
-          padding: 4%;
-          padding-top: 50px;
-          padding-bottom: 50px;
-          height: auto;
-          gap: 10px;
-          display: grid;
-          grid-column: 12;
-          grid-template-areas:
-            '. . . elpaere elpaere elpaere sect2 sect2 sect2 . . .'
-        }
-
-        .baeredygtigtlivsektion {
-          background-color: #3FCC59;
-          margin: 0;
-          padding: 4%;
-          padding-top: 50px;
-          padding-bottom: 50px;
-          height: auto;
-          gap: 10px;
-          display: grid;
-          grid-column: 12;
-          grid-template-areas:
-            '. . . sect3 sect3 sect3 baelibil baelibil baelibil . . .'
-        }
-
-        .elektrikersektion {
-          background-color: white;
-          margin: 0;
-          padding: 4%;
-          padding-top: 50px;
-          padding-bottom: 50px;
-          height: auto;
-          gap: 10px;
-          display: grid;
-          grid-column: 12;
-          grid-template-areas:
-            '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
-        }
-
-        @media (min-width: 850px) {
-          .bannerbilledeforside {
-            padding-top: 14%;
-          }
       }
