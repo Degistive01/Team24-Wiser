@@ -11,19 +11,19 @@ function validateForm() {
     let errorFlag = false;
 
     if (nameInput.value.length < 1) {
-        errorNodes[0].innerText = "Udfylt venligst Navn";
+        errorNodes[0].innerText = "Udfylt venligst navn";
         nameInput.classList.add("error-border");
         errorFlag = true;
     }
     if (!emailIsValid(email.value)) {
-        errorNodes[1].innerText = "Skriv korrekt Email";
+        errorNodes[1].innerText = "Skriv korrekt email";
         email.classList.add("error-border");
         errorFlag = true;
 
     }
 
     if (message.value.length < 1) {
-        errorNodes[2].innerText = "Skriv venligst din Besked";
+        errorNodes[2].innerText = "Skriv venligst din besked";
         message.classList.add("error-border");
         errorFlag = true;
 

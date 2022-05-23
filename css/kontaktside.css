@@ -30,6 +30,13 @@
     padding-bottom: 1px;
 }
 
+.herknap {
+    color: #42B4E6;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 form {
     max-width: 550px;
     font-family: arial Rounded MT;
