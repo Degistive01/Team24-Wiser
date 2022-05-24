@@ -11,26 +11,26 @@ function validateForm() {
     let errorFlag = false;
 
     if (nameInput.value.length < 1) {
-        errorNodes[0].innerText = "Udfylt venligst navn";
+        errorNodes[0].innerText = "Dette felt skal udfyldes";
         nameInput.classList.add("error-border");
         errorFlag = true;
     }
     if (!emailIsValid(email.value)) {
-        errorNodes[1].innerText = "Skriv korrekt email";
+        errorNodes[1].innerText = "Indtast venligst en gyldig email adresse";
         email.classList.add("error-border");
         errorFlag = true;
 
     }
 
     if (message.value.length < 1) {
-        errorNodes[2].innerText = "Skriv venligst din besked";
+        errorNodes[2].innerText = "Dette felt skal udfyldes";
         message.classList.add("error-border");
         errorFlag = true;
 
     }
 
     if (!errorFlag) {
-        success.innerText = "Tak din besked er modtaget!";
+        success.innerText = "Tak, din besked er modtaget";
     }
 }
 

@@ -1,139 +1,138 @@
 .bannerbilledekontakt {
-  width: 100%;
-  height: auto;
-  padding-top: 17%;
-  padding-bottom: 17%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../images/kontaktteam.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-left: 5%;
-  max-height: 650px;
+    width: 100%;
+    height: auto;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../images/kontaktteam.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    max-height: 650px;
 }
 
 .kontakttekst {
-  margin-top: 50px;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
+    margin-top: 50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
 }
 
 #overlay {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/trees.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 1px;
-  padding-bottom: 1px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/trees.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .herknap {
-  color: #42B4E6;
-  font-family: arial;
-  font-size: 20px;
-  font-weight: bold;
+    color: #42B4E6;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 form {
-  max-width: 550px;
-  font-family: arial Rounded MT;
-  width: 85%;
-  color: white;
-  margin: 12% auto 0 auto;
-  padding: 40px;
-  border-radius: 15px;
-  box-sizing: border-box;
-  margin-bottom: 12%;
+    max-width: 550px;
+    font-family: arial Rounded MT;
+    width: 85%;
+    color: white;
+    margin: 12% auto 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 12%;
 }
 
 @media (min-width: 850px) {
-  .bannerbilledekontakt {
-    padding-top: 14%;
-  }
+    .bannerbilledekontakt {
+        padding-top: 14%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-  form {
-    margin: 5% auto 0 auto;
-    margin-bottom: 5%;
-    padding: 0;
-  }
-
-  .kontakttekst {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    form {
+        margin: 5% auto 0 auto;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+    .kontakttekst {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 h2 {
-  margin: 0;
-  text-align: center;
-  color: white;
+    margin: 0;
+    text-align: center;
+    color: white;
 }
 
 label {
-  display: block;
-  margin: 20px 0;
+    display: block;
+    margin: 20px 0;
 }
 
 input[type="text"],
 textarea {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  outline: none;
-  resize: none;
-  border: none;
-  border-bottom: 2.5px solid #009530;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 2.5px solid #009530;
 }
 
 input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  outline: none;
-  resize: none;
-  border: none;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
 }
 
 input[type="text"]:focus,
 textarea:focus {
-  border-bottom: 2.5px solid #009530;
+    border-bottom: 2.5px solid #009530;
 }
 
 #center {
-  text-align: center;
+    text-align: center;
 }
 
 input[type="submit"] {
-  margin-top: 30px;
-width: 100%;
-max-width: 200px;
-background: #42B4E6;
-color: white;
-cursor: pointer;
-padding: 20px;
-text-align: center;
-text-decoration: none;
-font-size: 16px;
-border-radius: 10px;
-height: auto;
-}
+    margin-top: 30px;
+    width: 100%;
+    max-width: 200px;
+    background: #42B4E6;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    height: auto;
 }
 
 input[type="submit"]:hover {
-  background: #3087AD;
+    background: #3087AD;
 }
 
 .error {
-  color: red;
+    color: red;
 }
 
 #success {
-  color: white;
-  padding-top: 20px;
+    color: white;
+    padding-top: 20px;
+    font-size: 35px;
 }
