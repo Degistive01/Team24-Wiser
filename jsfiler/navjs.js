@@ -13,8 +13,10 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   navMenu.classList.remove("active");
 }))
 
-if (hamburger.classList.toggle = active){
-  console.log("Hamburger menu er aktive");
+let menubar = true
+
+if (true) {
+  console.log("if-else virker");
 } else {
-  console.log("Navbar er aktiv");
+  console.log("if-else virker ikke");
 }
