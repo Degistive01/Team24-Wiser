@@ -241,7 +241,9 @@ h3 {
     color: #9FA0A4;
 }
 
-
+#geolink {
+  cursor: pointer;
+  }
 
 @media(max-width: 600px) {
 
