@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #FDFEFF;
+body{
+  background-color: #FDFEFF;
 }
 
 button {
@@ -35,8 +35,8 @@ h1 {
 h2 {
     font-family: arial Rounded MT;
     font-size: 200%;
-    color: #4f4e4e;
-    margin-bottom: 24px;
+    color: #1F1F1F;
+    margin-bottom: 7px;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
 h3 {
     font-family: arial Rounded MT;
     font-size: 140%;
-    color: #4f4e4e;
+    color: #1F1F1F;
 }
 
 @media only screen and (min-width: 550px) {
@@ -86,8 +86,9 @@ h3 {
 .logonav {
     float: left;
     display: flex;
+    justify-content: center;
     margin-left: 30px;
-}
+  }
 
 .nav-menu {
     display: flex;
@@ -135,6 +136,7 @@ h3 {
 }
 
 @media (max-width: 970px) {
+
     .hamburger {
         display: block;
     }
@@ -239,7 +241,18 @@ h3 {
     color: #9FA0A4;
 }
 
+
+
 @media(max-width: 600px) {
+
+  .logonav {
+      display: flex;
+      padding-left: 25px;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
     .footer .inner_footer {
         width: 90%;
     }
