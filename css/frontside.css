@@ -28,6 +28,11 @@
         width: 100%;
         display: block;
         color: white;
+        display: flex;
+align-content: center;
+align-items: flex-start;
+flex-direction: column;
+justify-content: center;
     }
 
     .wiserappbillede {
@@ -59,7 +64,7 @@
         gap: 10px;
         display: grid;
         grid-column: 12;
-        grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .' '. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+        grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .';
     }
 
     .sparpengetekst {
@@ -248,6 +253,7 @@
             grid-area: bil3;
             width: 100%;
         }
+
         .wiserappbillede {
             grid-area: bil4;
             width: 55%;
@@ -264,7 +270,7 @@
             gap: 10px;
             display: grid;
             grid-column: 12;
-            grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .''. . . bil3 bil3 bil3 bil4 bil4 bil4 . . .';
+            grid-template-areas: '. . . wiov wiov wiov bil4 bil4 bil4 . . .';
         }
         .sparpengesektion {
             background-color: white;
