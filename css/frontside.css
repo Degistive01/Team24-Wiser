@@ -308,14 +308,34 @@ justify-content: center;
             grid-column: 12;
             grid-template-areas: '. . . elekbil elekbil elekbil sect4 sect4 sect4 . . .'
         }
-        @media (min-width: 850px) {
-            .bannerbilledeforside {
-                padding-top: 14%;
-            }
-
-            .elekbutton{
-              max-width: 50%;
-            }
-
+    }
+    @media (min-width: 850px) {
+        .bannerbilledeforside {
+            padding-top: 14%;
         }
+
+        .elekbutton{
+          max-width: 50%;
+        }
+
+    }
+
+    @media (max-width: 465px) {
+      .wiserintrosektion {
+          background-color: #3FCC59;
+          margin: 0;
+          padding: 4%;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          height: auto;
+          gap: 10px;
+          display: grid;
+          grid-column: 12;
+          grid-template-areas: '. . . wiov wiov wiov wiov wiov wiov . . .''. . . bil4 bil4 bil4 bil4 bil4 bil4 . . .';
+      }
+
+      .section{
+        padding-bottom: 30px;
+      }
+
     }
