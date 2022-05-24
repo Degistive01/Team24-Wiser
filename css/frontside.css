@@ -169,6 +169,7 @@
         display: flex;
         justify-content: center;
         padding-top: 10%;
+        width: 100%;
 
 
     }
@@ -309,5 +310,6 @@
             .elekbutton{
               max-width: 50%;
             }
+
         }
     }
