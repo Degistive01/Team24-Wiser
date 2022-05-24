@@ -28,6 +28,7 @@ function validateForm() {
         errorFlag = true;
 
     }
+
     if (!errorFlag) {
         success.innerText = "Tak din besked er modtaget!";
     }
