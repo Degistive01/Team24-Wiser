@@ -16,3 +16,10 @@ if (itproblemer == "aktiv") {
 } else {
   document.getElementById("midlertidigtekstitproblemer").style.display = "none";
 }
+
+const elekknapbox = document.getElementById("elekbutton");
+elekknapbox.addEventListener("click", wisElektrik);
+
+function wisElektrik() {
+  window.open("https://www.lk.dk/privat/find-elektriker/");
+}
