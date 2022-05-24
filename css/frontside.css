@@ -71,6 +71,7 @@ justify-content: center;
         grid-area: spartekst;
         width: 100%;
         display: block;
+        margin-bottom: 20px;
     }
 
     .section2 {
