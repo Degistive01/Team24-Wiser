@@ -221,12 +221,27 @@
         }
         .section2 {
             padding-left: 50px;
+            display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
         }
         .section3 {
             padding-right: 50px;
+            display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
         }
         .section4 {
             padding-left: 50px;
+            display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
         }
         .bannerbillede3 {
             grid-area: bil3;

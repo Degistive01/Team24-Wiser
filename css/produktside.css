@@ -250,14 +250,29 @@ video {
 
   .wiserapptekstboks {
     padding-left: 50px;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .animtion1tekstboks {
     padding-right: 50px;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .animtion2tekstboks {
     padding-left: 50px;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .wiserappmand {

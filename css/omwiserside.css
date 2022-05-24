@@ -132,14 +132,29 @@
   }
   .schneidertekst {
     padding-left: 50px;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .itsikkerhed {
     padding-right: 50px;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .sultentekst {
     padding-left: 50px;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .afschneiderelectricsection {
