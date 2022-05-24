@@ -1,4 +1,4 @@
-console.log(js footer is running);
+console.console.log(js footer is running);
 
 const element = document.getElementById("geolink");
 element.addEventListener("click", geoPlacering);
