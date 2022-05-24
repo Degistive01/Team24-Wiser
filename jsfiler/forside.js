@@ -1,6 +1,6 @@
 console.log("js to forside is running");
 
-const insigterfunktion = ["- Glemsomhed", "- Kage", "- Overmod"];
+const insigterfunktion = ["- Øget fokus på elforbrug", "- Optimeret standby elforbrug", "- Minske fobrug relateret til glemsomhed"];
 
 let text = "";
 for (let i = 0; i < insigterfunktion.length; i++) {
