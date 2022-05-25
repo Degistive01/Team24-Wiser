@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-family: arial Rounded MT;
+    font-family: arial Rounded MT, 'Varela Round', sans-serif;
     font-size: 200%;
     color: #1F1F1F;
     margin-bottom: 7px;
@@ -46,7 +46,7 @@ p {
 }
 
 h3 {
-    font-family: arial Rounded MT;
+    font-family: arial Rounded MT, 'Varela Round', sans-serif;
     font-size: 140%;
     color: #1F1F1F;
 }
