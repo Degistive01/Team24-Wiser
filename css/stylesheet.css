@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-  background-color: #FDFEFF;
+body {
+    background-color: #FDFEFF;
 }
 
 button {
@@ -27,7 +27,7 @@ a {
 }
 
 h1 {
-    font-family: arial Rounded MT;
+    font-family: arial Rounded MT, 'Varela Round', sans-serif;
     font-size: 170%;
     color: white;
 }
@@ -88,7 +88,7 @@ h3 {
     display: flex;
     justify-content: center;
     margin-left: 30px;
-  }
+}
 
 .nav-menu {
     display: flex;
@@ -136,7 +136,6 @@ h3 {
 }
 
 @media (max-width: 970px) {
-
     .hamburger {
         display: block;
     }
@@ -242,19 +241,16 @@ h3 {
 }
 
 #geolink {
-  cursor: pointer;
-  }
-  
+    cursor: pointer;
+}
+
 @media(max-width: 600px) {
-
-  .logonav {
-      display: flex;
-      padding-left: 25px;
-      margin-left: auto;
-      margin-right: auto;
-
-  }
-
+    .logonav {
+        display: flex;
+        padding-left: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .footer .inner_footer {
         width: 90%;
     }
