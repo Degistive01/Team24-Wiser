@@ -85,7 +85,7 @@
   width: 100%;
 }
 
-.itbutton:hover {
+#itbutton:hover {
   background-color: #3087AD;
 }
 

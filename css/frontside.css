@@ -180,7 +180,7 @@ justify-content: center;
 
     }
 
-    .elekbutton:hover {
+    #elekbutton:hover {
         background-color: #3087AD;
     }
 
