@@ -206,7 +206,7 @@ h3 {
 }
 
 .inner_footer .footer_third h5 {
-    font-family: arial Rounded MT;
+    font-family: arial Rounded MT, 'Varela Round', sans-serif;
     font-size: 22px;
     color: white;
     display: block;
