@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="css-sg/styleguide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="images-sg/logo.png" alt="logo">
+        <div class="overskrift">
+            <h1>Wiser Style Guide</h1>
+        </div>
+    </div>
+
+    <h2 class="menu">Navigations Menu</h2>
+
+    <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="knap_hover.html">Knap / Hover </a></li>
+        <li><a href="farver.html">Farver</a></li>
+        <li><a href="typografi.html">Typografi</a></li>
+        <li><a href="ikoner.html">Ikoner</a></li>
+        <li><a href="logo.html">Logo</a></li>
+        <li><a href="billeder.html">Billeder</a></li>
+        <li><a href="globaletags.html">Globale tags</a></li>
+        <li><a class="active" href="header.html">Header</a></li>
+        <li><a href="footer.html">Footer</a></li>
+
+
+
+
+
+
+    </ul>
+    <div class="tekst">
+        <h3>Header med navbag</h3>
+
+        <pre>
+            <code>
+                Selve navbar
+
+                .navbar {
+                    min-height: 70px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 24px;
+                }
+
+            </code>
+        </pre>
+        <pre>
+            <code>
+                Placering af logo
+
+                .logonav {
+                    float: left;
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 30px;
+                }
+
+            </code>
+        </pre>
+        <pre>
+            <code>
+                Nav menu
+
+                .nav-menu {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 60px;
+                    margin-right: 30px;
+                }
+            </code>
+        </pre>
+        <pre>
+            <code>
+                Til Nav Link
+
+                .nav-link {
+                    transition: 0.7s ease;
+                    position: relative;
+                }
+
+                .nav-link:hover::before {
+                    transform: scale(1, 1);
+                }
+
+                .nav-link::before {
+                    content: '';
+                    display: block;
+                    height: 2px;
+                    background: white;
+                    position: absolute;
+                    bottom: -.50em;
+                    left: 0;
+                    right: 0;
+                    transform: scale(0, 1);
+                    transition: transform ease-in-out 250ms;
+                }
+
+            </code>
+        </pre>
+
+        <pre>
+            <code>
+                Hamburger menu til mobilen
+
+                .hamburger {
+                    display: none;
+                    cursor: pointer;
+                }
+
+                .bar {
+                    display: block;
+                    width: 25px;
+                    height: 3px;
+                    margin: 5px auto;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    background-color: white;
+                }
+            </code>
+        </pre>
+
+
+</body>
+
+</html>

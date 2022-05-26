@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="css-sg/styleguide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="overskrift">
+            <h1>Wiser Style Guide</h1>
+        </div>
+    </div>
+
+    <h2 class="menu">Navigations Menu</h2>
+
+    <ul>
+        <li><a class="active" href="index.html">Hjem</a></li>
+        <li><a href="knap_hover.html">Knap / Hover </a></li>
+        <li><a href="farver.html">Farver</a></li>
+        <li><a href="typografi.html">Typografi</a></li>
+        <li><a href="ikoner.html">Ikoner</a></li>
+        <li><a href="logo.html">Logo</a></li>
+        <li><a href="billeder.html">Billeder</a></li>
+        <li><a href="globaletags.html">Globale tags</a></li>
+        <li><a href="header.html">Header</a></li>
+        <li><a class="active" href="footer.html">Footer</a></li>
+
+    </ul>
+    <div class="tekst">
+        <h3>Footer på hjemmesiden </h3>
+        <pre>
+            <code>
+                Footer
+
+                .footer {
+                    width: 100%;
+                    display: block;
+                    overflow: hidden;
+                    padding: 70px 0;
+                    box-sizing: border-box;
+                    background-color: #626469;
+                }
+            </code>
+        </pre>
+
+        <pre>
+            <code>
+                Inner footer og logo
+
+                .inner_footer {
+                    display: block;
+                    margin: 0 auto;
+                    width: 1100px;
+                }
+
+                .inner_footer .logo_container {
+                    width: 35%;
+                    float: left;
+                    height: 100%;
+                    display: block;
+                }
+
+                .inner_footer .logo_container img {
+                    width: 65%;
+                    height: auto;
+                }
+
+            </code>
+        </pre>
+
+        <pre>
+            <code>
+                .inner_footer .footer_third {
+                    width: calc(21.6666666667 - 20px);
+                    margin-right: 75px;
+                    float: left;
+                    height: 100%;
+                }
+
+                .inner_footer .footer_third:last-child {
+                    margin-right: 0;
+                }
+
+                .inner_footer .footer_third h5 {
+                    font-family: arial Rounded MT, 'Varela Round', sans-serif;
+                    font-size: 22px;
+                    color: white;
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                .inner_footer .footer_third a {
+                    font-family: arial;
+                    font-size: 15px;
+                    color: white;
+                    display: block;
+                    margin-bottom: 20px;
+                    padding-bottom: 5px;
+                }
+
+                .inner_footer .footer_third p {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+
+            </code>
+        </pre>
+        <pre>
+            <code>
+                Billeder i footer
+                <div class="footerbilleder">
+                <img src="images/googleplay.png" alt="googleplay billede">
+
+                Google Play
+
+                <img src="images/applestore.png" alt="applestore billede">
+
+                App store
+                </div>
+
+
+            </code>
+        </pre>
+
+
+
+</body>
+
+</html>
