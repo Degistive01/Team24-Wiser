@@ -159,11 +159,13 @@ li a:hover {
   padding-left: 10px;
   margin-right: 20px;
   margin-left: 400px;
+  margin-bottom: 30px;
 }
 
 .tekst {
     margin-left: 25%;
     padding: 1px 25px;
+    padding-bottom: 30px;
 }
 
 .knap {
