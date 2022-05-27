@@ -57,8 +57,6 @@ a{
   font-family: arial Rounded MT;
 }
 
-
-
 .logo {
     float: left;
     width: 10%;
@@ -424,10 +422,10 @@ li a:hover {
 h5{
   font-family: arial Rounded MT;
   color: white;
+  font-size: 20px;
 }
 
 .footerfremvisning{
-  min-height: 50px;
   margin-left: 405px;
   margin-right: 45px;
   background-color: #626469;
@@ -445,20 +443,19 @@ h5{
 display: flex;
 flex-direction: column;
 gap: 15px;
+max-width: 200px;
   }
 
   .navigationfremvisning{
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 15px;
   }
 
   .kontaktinfofremvisning{
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 15px;
     padding-bottom: 30px;
 
   }
@@ -466,8 +463,9 @@ gap: 15px;
   .somefremvisning{
     display: flex;
     flex-direction: row;
-    font-size: 10px;
-    padding: 0 30px;
+    font-size: 30px;
+    margin: -35px;
+    padding-bottom: 10px;
 
   }
 
@@ -479,7 +477,7 @@ background-color: green;
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images-sg/trees-sg.jpg");
 }
 
-h2 {
+h4 {
     margin: 0;
     text-align: center;
     color: white;
@@ -488,6 +486,7 @@ h2 {
     align-items: center;
     padding-top: 15px;
     font-family: arial Rounded MT;
+    font-size: 30px;
 }
 
 label {
