@@ -134,6 +134,16 @@ li a:hover {
   margin-right: 20px;
 }
 
+.htmlboks6{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-left: 400px;
+}
+
 .tekst {
     margin-left: 25%;
     padding: 1px 25px;
