@@ -434,7 +434,7 @@ h5{
   }
 
   .footerlogofremvisning{
-    padding: 40px;
+    padding: 30px;
     padding-right: 0;
   }
 
@@ -456,7 +456,11 @@ max-width: 200px;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+    padding-right: 30px;
+  }
 
+  #geolink{
+    cursor: pointer;
   }
 
   .somefremvisning{

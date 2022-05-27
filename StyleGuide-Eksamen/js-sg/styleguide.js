@@ -1,15 +1,17 @@
 console.log("hey jeg virker");
 
-let hsd = [];
-hsd [0] = "SUPER!";
-hsd [1] = "ØV...:(";
+function hvadSynesDu() {
+  let number = document.getElementById("areyouready").value;
 
-function myFunction() {
-let valg = document.getElementById("areyouready");
-if (valg == 1) {
-    alert(hsd [0]);
+  if (number > 6) {
+    alert("Fantastisk!");
   }
-  else (valg == 2){
-    alert(hsd [1])
+
+  else if (number > 4) {
+    alert("Det er okay")
   }
+  else {
+    alert("Der er noget at arbejde på");
+  }
+  document.getElementById("areyouready").innerHTML = text;
 }
