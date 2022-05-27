@@ -11,6 +11,32 @@
     overflow: hidden;
 }
 
+.navfremvisning{
+  min-height: 50px;
+  margin-left: 405px;
+  margin-right: 45px;
+  background-color: #3DCD58;
+}
+
+.logofremvisning{
+  float: left;
+  margin-left: 15px;
+}
+
+.navtekstfremvisning{
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  color: white;
+  padding: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: arial Rounded MT;
+}
+
+
 .logo {
     float: left;
     width: 10%;
@@ -50,10 +76,67 @@ li a:hover {
     color: white;
 }
 
+.htmlboks{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+
+}
+
+.htmlboks1{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-left: 400px;
+  margin-right: 20px;
+}
+
+.htmlboks2{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-left: 400px;
+  margin-right: 20px;
+}
+
+.htmlboks3{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-left: 400px;
+  margin-right: 20px;
+}
+
+.htmlboks4{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.htmlboks5{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
 .tekst {
     margin-left: 25%;
     padding: 1px 25px;
-    height: 1000px;
 }
 
 .knap {
@@ -73,12 +156,10 @@ li a:hover {
     cursor: pointer;
 }
 
-pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 0px;
-    padding-left: 10px;
+.farveboks{
+  margin-left: 25%;
+  padding: 1px 25px;
+  margin-bottom: 30px;
 }
 
 .green {
@@ -87,8 +168,8 @@ pre code {
     padding: 25px;
     text-align: center;
     color: white;
-    margin-bottom: -18px;
-    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .darkgreen {
@@ -97,8 +178,19 @@ pre code {
     width: 25%;
     text-align: center;
     color: white;
-    margin-bottom: -18px;
-    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.nearlywhite{
+  background-color: #FDFEFF;
+  padding: 25px;
+  width: 25%;
+  text-align: center;
+  color: #1F1F1F;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border: solid #9FA0A4;
 }
 
 .lightgrey {
@@ -107,8 +199,8 @@ pre code {
     width: 25%;
     text-align: center;
     color: white;
-    margin-bottom: -18px;
-    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .darkgrey {
@@ -117,8 +209,18 @@ pre code {
     width: 25%;
     text-align: center;
     color: white;
-    margin-bottom: -18px;
-    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.lightblack{
+  background-color: #1F1F1F;
+  padding: 25px;
+  width: 25%;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .lightblue {
@@ -127,33 +229,85 @@ pre code {
     width: 25%;
     text-align: center;
     color: white;
-    margin-bottom: -18px;
-    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.darkblue{
+  background-color: #3087AD;
+  padding: 25px;
+  width: 25%;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .margin-farver {
     margin-top: -30px;
     padding-bottom: 25px;
+
 }
 
 .mainheader {
     font-family: arial Rounded MT;
+    color: white;
     font-size: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images-sg/fremvisningsbillede.jpg");
+    margin-top: 70px;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.titelboks{
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 70px;
 }
 
 .supheader {
     font-family: arial Rounded MT;
     font-size: 30px;
+    color: #1F1F1F;
+}
+
+.undertitelboks{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 70px;
 }
 
 .paragraf {
     font-family: arial;
     font-size: 20px;
+    color: #1F1F1F;
+}
+
+.paragrafboks{
+  margin-top: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.ikonertitel{
+  margin-left: 400px;
 }
 
 .ikoner {
     display: inline-block;
-    padding: 0 10px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
 }
 
 .fa-facebook {
@@ -192,13 +346,38 @@ pre code {
     color: #9FA0A4;
 }
 
+.logotitel{
+  margin-left: 400px;
+}
+
+.logoboks{
+  display: inline-block;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .logofooter {
     background-color: #626469;
+    max-height: 175px;
 }
 
 .readmore {
     max-width: 500px;
     max-height: 500px;
+}
+
+.billedertitel{
+  margin-left: 400px;
+}
+
+.billedeboks{
+  display: inline-block;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .elektriker {
@@ -209,3 +388,53 @@ pre code {
 .tekststorrelse {
     font-size: 17px;
 }
+
+h5{
+  font-family: arial Rounded MT;
+  color: white;
+}
+
+.footerfremvisning{
+  min-height: 50px;
+  margin-left: 405px;
+  margin-right: 45px;
+  background-color: #626469;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .footerlogofremvisning{
+    padding: 40px;
+    padding-right: 0;
+  }
+
+  .appsfremvisning{
+display: flex;
+flex-direction: column;
+gap: 15px;
+  }
+
+  .navigationfremvisning{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  }
+
+  .kontaktinfofremvisning{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 30px;
+
+  }
+
+  .somefremvisning{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    padding: 0 30px;
+
+  }

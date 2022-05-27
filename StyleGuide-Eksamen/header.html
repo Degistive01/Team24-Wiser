@@ -29,7 +29,7 @@
         <li><a href="ikoner.html">Ikoner</a></li>
         <li><a href="logo.html">Logo</a></li>
         <li><a href="billeder.html">Billeder</a></li>
-        <li><a href="globaletags.html">Globale tags</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
         <li><a class="active" href="header.html">Header</a></li>
         <li><a href="footer.html">Footer</a></li>
 
@@ -41,96 +41,55 @@
     </ul>
     <div class="tekst">
         <h3>Header med navbag</h3>
+      </div>
+        <nav class="navfremvisning">
+          <div class="logofremvisning">
+              <img src="images-sg/logo.png" alt="logo-navbar." height="50" width="110">
+          </div>
+          <div class="navtekstfremvisning">
+            <a>Forside</a>
+            <a>Produkter</a>
+            <a>Om Wiser</a>
+            <a>Kontakt</a>
+            <a>Find Elektriker</a>
+          </div>
+        </nav>
 
-        <pre>
-            <code>
-                Selve navbar
 
-                .navbar {
-                    min-height: 70px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    padding: 0 24px;
-                }
-
-            </code>
-        </pre>
-        <pre>
-            <code>
-                Placering af logo
-
-                .logonav {
-                    float: left;
-                    display: flex;
-                    justify-content: center;
-                    margin-left: 30px;
-                }
-
-            </code>
-        </pre>
-        <pre>
-            <code>
-                Nav menu
-
-                .nav-menu {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    gap: 60px;
-                    margin-right: 30px;
-                }
-            </code>
-        </pre>
-        <pre>
-            <code>
-                Til Nav Link
-
-                .nav-link {
-                    transition: 0.7s ease;
-                    position: relative;
-                }
-
-                .nav-link:hover::before {
-                    transform: scale(1, 1);
-                }
-
-                .nav-link::before {
-                    content: '';
-                    display: block;
-                    height: 2px;
-                    background: white;
-                    position: absolute;
-                    bottom: -.50em;
-                    left: 0;
-                    right: 0;
-                    transform: scale(0, 1);
-                    transition: transform ease-in-out 250ms;
-                }
-
-            </code>
-        </pre>
-
-        <pre>
-            <code>
-                Hamburger menu til mobilen
-
-                .hamburger {
-                    display: none;
-                    cursor: pointer;
-                }
-
-                .bar {
-                    display: block;
-                    width: 25px;
-                    height: 3px;
-                    margin: 5px auto;
-                    -webkit-transition: all 0.3s ease-in-out;
-                    transition: all 0.3s ease-in-out;
-                    background-color: white;
-                }
-            </code>
-        </pre>
+<div class="tekst">
+<div class="htmlboks4">
+  <xmp>
+    <header>
+        <nav class="navbar">
+            <div class="logonav">
+                <a href="index.html"><img src="images-sg/logo-navbar.png" alt="logo-navbar." height="100" width="220"></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Forside</a>
+                </li>
+                <li class="nav-item">
+                    <a href="produkt.html" class="nav-link">Produkter</a>
+                </li>
+                <li class="nav-item">
+                    <a href="omwiser.html" class="nav-link">Om Wiser</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.lk.dk/privat/find-elektriker/" target="_blank" class="nav-link">Find Elektriker</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+  </xmp>
+</div>
 
 
 </body>

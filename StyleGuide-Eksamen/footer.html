@@ -29,107 +29,99 @@
         <li><a href="ikoner.html">Ikoner</a></li>
         <li><a href="logo.html">Logo</a></li>
         <li><a href="billeder.html">Billeder</a></li>
-        <li><a href="globaletags.html">Globale tags</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
         <li><a href="header.html">Header</a></li>
         <li><a class="active" href="footer.html">Footer</a></li>
 
     </ul>
     <div class="tekst">
         <h3>Footer på hjemmesiden </h3>
-        <pre>
-            <code>
-                Footer
+    </div>
+        <footer class="footerfremvisning">
+          <div class="footerlogofremvisning">
+              <img src="images-sg/logo_footer.png" alt="logo footer." height="200" width="260">
+          </div>
+          <div class="appsfremvisning">
+            <h5>Download Appen</h5>
+              <img src="images-sg/googleplay.png" alt="googleplay knap.">
+              <img src="images-sg/applestore.png" alt="applestore knap.">
+          </div>
 
-                .footer {
-                    width: 100%;
-                    display: block;
-                    overflow: hidden;
-                    padding: 70px 0;
-                    box-sizing: border-box;
-                    background-color: #626469;
-                }
-            </code>
-        </pre>
+          <div class="navigationfremvisning">
+            <h5>Navigation</h5>
+            <p1> Forside</p1>
+            <p1> Produkter</p1>
+            <p1> Om Wiser</p1>
+            <p1> Kontakt</p1>
+          </div>
 
-        <pre>
-            <code>
-                Inner footer og logo
+          <div class="kontaktinfofremvisning">
+            <h5>Kontakt information</h5>
+            <div class="somefremvisning">
+              <p><i class="fa fa-facebook fa-3x"></i></p>
+              <p><i class="fa fa-instagram fa-3x"></i></p>
+              <p><i class="fa fa-youtube fa-3x"></i></p>
+            </div>
 
-                .inner_footer {
-                    display: block;
-                    margin: 0 auto;
-                    width: 1100px;
-                }
+            <p1> Skriv til os</p1>
+            <p1> Find lokal elektriker</p1>
+            <p1> Tlf.: +45 88 30 20 00</p1>
+            <p1> Schneider Electric Danmark A/S
+            <br>Lautrupvang 1 <br>2750 Ballerup
+               CVR: 70698714</p1>
+          </div>
+          </footer>
 
-                .inner_footer .logo_container {
-                    width: 35%;
-                    float: left;
-                    height: 100%;
-                    display: block;
-                }
+<div class="tekst">
+        <div class="htmlboks5">
+          <xmp>
+            <footer class="footer">
+                <div class="inner_footer">
+                    <div class="logo_container">
+                        <a href="index.html"><img src="images/logo_footer.png" alt="logo footer."></a>
+                    </div>
+                    <div class="footer_third">
+                        <h5>Download Appen</h5>
+                        <a href="https://play.google.com/store/apps/details?id=com.schneiderelectric.WiserBySE">
+                          <img src="images/googleplay.png" alt="googleplay knap."></a>
+                        <a href="https://apps.apple.com/dk/app/wiser-by-se/id1026806919?l=da">
+                          <img src="images/applestore.png" alt="applestore knap."></a>
 
-                .inner_footer .logo_container img {
-                    width: 65%;
-                    height: auto;
-                }
+                    </div>
 
-            </code>
-        </pre>
+                    <div class="footer_third">
+                        <h5>Navigation</h5>
+                        <a href="index.html"> Forside</a>
+                        <a href="produkt.html"> Produkter</a>
+                        <a href="omwiser.html"> Om Wiser</a>
+                        <a href="kontakt.html"> Kontakt</a>
+                    </div>
 
-        <pre>
-            <code>
-                .inner_footer .footer_third {
-                    width: calc(21.6666666667 - 20px);
-                    margin-right: 75px;
-                    float: left;
-                    height: 100%;
-                }
+                    <div class="footer_third">
+                        <h5>Kontakt information</h5>
 
-                .inner_footer .footer_third:last-child {
-                    margin-right: 0;
-                }
+                        <p><a href="https://www.facebook.com/SchneiderElectricDK/?brand_redir=571084646311141" target="_blank">
+                          <i class="fa fa-facebook fa-3x"></i></a></p>
+                        <p><a href="https://www.instagram.com/schneiderelectric/" target="_blank"><i class="fa fa-instagram fa-3x">
+                        </i></a></p>
+                        <p><a href="https://www.youtube.com/c/schneiderelectric" target="_blank"><i class="fa fa-youtube fa-3x">
+                        </i></a></p>
 
-                .inner_footer .footer_third h5 {
-                    font-family: arial Rounded MT, 'Varela Round', sans-serif;
-                    font-size: 22px;
-                    color: white;
-                    display: block;
-                    width: 100%;
-                    margin-bottom: 20px;
-                }
-
-                .inner_footer .footer_third a {
-                    font-family: arial;
-                    font-size: 15px;
-                    color: white;
-                    display: block;
-                    margin-bottom: 20px;
-                    padding-bottom: 5px;
-                }
-
-                .inner_footer .footer_third p {
-                    display: inline-block;
-                    padding: 0 10px;
-                }
-
-            </code>
-        </pre>
-        <pre>
-            <code>
-                Billeder i footer
-                <div class="footerbilleder">
-                <img src="images-sg/googleplay.png" alt="googleplay billede">
-
-                Google Play
-
-                <img src="images-sg/applestore.png" alt="applestore billede">
-
-                App store
+                        <a href="kontakt.html"> Skriv til os</a>
+                        <a href="https://www.lk.dk/privat/find-elektriker/"> Find lokal elektriker</a>
+                        <a> Tlf.: +45 88 30 20 00</a>
+                        <a id="geolink"> Schneider Electric Danmark A/S
+                  <br>Lautrupvang 1 <br>2750 Ballerup
+                  CVR: 70698714</a>
+                    </div>
                 </div>
+            </footer>
+          </xmp>
+        </div>
 
 
-            </code>
-        </pre>
+
+
 
 
 
