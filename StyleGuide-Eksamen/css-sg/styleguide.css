@@ -65,6 +65,116 @@ a{
   font-family: arial Rounded MT;
 }
 
+.fst{
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.fst::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -.50em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.fst:hover::before {
+    transform: scale(1, 1);
+}
+
+.pst{
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.pst::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -.50em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.pst:hover::before {
+    transform: scale(1, 1);
+}
+
+.omt{
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.omt::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -.50em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.omt:hover::before {
+    transform: scale(1, 1);
+}
+
+.kst{
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.kst::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -.50em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.kst:hover::before {
+    transform: scale(1, 1);
+}
+
+.fet{
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.fet::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -.50em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+}
+
+.fet:hover::before {
+    transform: scale(1, 1);
+}
+
 .menu {
     padding: 15px;
 }
