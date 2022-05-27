@@ -544,3 +544,14 @@ input[type="submit"]:hover {
     font-size: 35px;
     font-family: arial;
 }
+
+.ayrboks{
+  display: block;
+  margin-left: 335px;
+}
+
+#areyouready{
+  border: solid #3DCD58;
+  border-radius: 5px;
+  margin-left: 0px;
+}
