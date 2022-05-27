@@ -5,6 +5,7 @@
 
 h1{
   font-family: arial Rounded MT;
+  color: white;
 }
 
 h2{
@@ -26,14 +27,16 @@ a{
 
 .header {
     width: 100%;
-    height: 350px;
+    height: auto;
     margin-bottom: 40px;
     background-color: #3DCD58;
     overflow: hidden;
+    text-align: center;
+    font-size: 50px;
 }
 
 .navfremvisning{
-  min-height: 50px;
+  min-height: 100px;
   margin-left: 405px;
   margin-right: 45px;
   background-color: #3DCD58;
@@ -42,6 +45,10 @@ a{
 .logofremvisning{
   float: left;
   margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .navtekstfremvisning{
@@ -53,19 +60,9 @@ a{
   color: white;
   padding: 15px;
   margin-right: 20px;
+  margin-top: 20px;
   cursor: pointer;
   font-family: arial Rounded MT;
-}
-
-.logo {
-    float: left;
-    width: 10%;
-}
-
-.overskrift {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 3vw;
 }
 
 .menu {
