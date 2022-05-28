@@ -585,7 +585,7 @@ max-width: 200px;
 
 .kontaktboksfremvisning{
 width: 450px;
-height: 600px;
+height: 500px;
 margin-left: 400px;
 background-color: green;
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images-sg/trees-sg.jpg");
