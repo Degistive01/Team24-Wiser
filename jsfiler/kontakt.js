@@ -31,6 +31,9 @@ function validateForm() {
 
     if (!errorFlag) {
         success.innerText = "Tak, din besked er modtaget";
+
+    } else {
+        success.innerText = "Udfyldt venligst felterne"
     }
 }
 
@@ -39,7 +42,7 @@ function clearMessage() {
         errorNodes[i].innerText = "";
     }
 
-    success.innerText = "";
+
     nameInput.classList.remove("error-border");
     email.classList.remove("error-border");
     message.classList.remove("error-border");
