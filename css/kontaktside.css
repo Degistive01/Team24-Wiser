@@ -87,7 +87,7 @@ textarea {
     outline: none;
     resize: none;
     border: none;
-    border-bottom: 2.5px solid #009530;
+    border-bottom: 1px solid #D3D3D3;
 }
 
 input[type="submit"] {
@@ -129,6 +129,10 @@ input[type="submit"]:hover {
 
 .error {
     color: red;
+}
+
+.error-border {
+    border-bottom: 3px solid red;
 }
 
 #success {

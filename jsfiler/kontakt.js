@@ -38,6 +38,7 @@ function clearMessage() {
     for (let i = 0; i < errorNodes.length; i++) {
         errorNodes[i].innerText = "";
     }
+
     success.innerText = "";
     nameInput.classList.remove("error-border");
     email.classList.remove("error-border");
@@ -45,6 +46,7 @@ function clearMessage() {
 
 
 }
+
 
 function emailIsValid(email) {
     let pattern = /\S+@\S+\.\S+/;
