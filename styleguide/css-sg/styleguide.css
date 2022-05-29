@@ -617,8 +617,7 @@ textarea {
     box-sizing: border-box;
     outline: none;
     resize: none;
-    border: none;
-    border-bottom: 2.5px solid #009530;
+    font-family: arial;
 }
 
 #center {
