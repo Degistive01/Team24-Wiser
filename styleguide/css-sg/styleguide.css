@@ -652,6 +652,10 @@ input[type="submit"]:hover {
     margin-left: 70px;
 }
 
+.error-border {
+    border-bottom: 3px solid red;
+}
+
 #success {
     color: white;
     padding-top: 20px;
